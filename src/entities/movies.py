@@ -1,9 +1,11 @@
 from dataclasses import dataclass
 from typing import List
 
+
 @dataclass
 class Actor:
     name: str
+
 
 @dataclass
 class Movie:
