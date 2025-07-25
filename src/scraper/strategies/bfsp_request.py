@@ -5,9 +5,8 @@ from src.scraper.parser import parse_json_ld
 
 
 class BfspRequestScraper(BaseScraper):
-    def __init__(self, downloader: DownloaderHelper, url: str):
+    def __init__(self, downloader: DownloaderHelper):
         self.downloader = downloader
-        self.url = url
 
     # def get_movies(self) -> str:
     #     html_content = self.downloader.get_html(self.url)
@@ -71,18 +70,14 @@ class BfspRequestScraper(BaseScraper):
     #             continue
 
     #     return movies
-    def _get_json(self,html):
+    def _get_json(self, html: str) -> dict:
         soup = BeautifulSoup(html, "html.parser")
         script_element = soup.find("script", type="application/ld+json")
 
         if script_element:
-            return script_element.string
+            return parse_json_ld(script_element.string)
         return None
 
-    def get_movies(self):
-        html_content = self.downloader.get_html(self.url)
-        return self._get_json(html_content)
-    
-    def get_detail_movie(self,url):
+    def get_data(self, url: str) -> dict:
         html_content = self.downloader.get_html(url)
         return self._get_json(html_content)
