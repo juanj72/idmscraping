@@ -17,11 +17,11 @@ class BfspRequestScraper:
         self.delay = delay  # Delay between requests
         self.lock = Lock()  # to thread-safe operations
 
-    def _convert_to_dict(self,movies: List[Movie]) -> List[dict]:
+    def _convert_to_dict(self, movies: List[Movie]) -> List[dict]:
         """Convert a list of Movie objects to a list of dictionaries."""
         return [asdict(movie) for movie in movies]
 
-    def get_movies(self, base_url: str) -> List[Movie]:
+    def get_movies(self, base_url: str) -> List[dict]:
         movies = self.scraper.get_data(base_url).get("itemListElement", [])
 
         movie_urls = [
@@ -64,9 +64,9 @@ class BfspRequestScraper:
 
         return self._convert_to_dict(movie_objects)
 
-    def _process_movie_with_retry(
+    def _process_movie_with_retry( #type: ignore
         self, url_detail: str, index: int, max_retries: int = 3
-    ) -> Movie:
+    ) -> Movie:  # type: ignore
 
         for attempt in range(max_retries):
             try:
@@ -86,7 +86,9 @@ class BfspRequestScraper:
                     qualification=dict_get(
                         detail, ["review", "reviewRating", "worstRating"], "N/A"
                     ),
-                    duration=convert_duration_to_minutes_iso(detail.get("duration", "N/A")),
+                    duration=convert_duration_to_minutes_iso(
+                        detail.get("duration", "N/A")
+                    ),
                     metascore=float(
                         detail.get("aggregateRating", {}).get("ratingValue", 0)
                     ),
@@ -104,6 +106,7 @@ class BfspRequestScraper:
                     print(f"Falló después de {max_retries} intentos: {url_detail}")
                     raise e
 
+    # TODO: move to utils
     def _parse_year(self, date_str: str) -> int:
         try:
             return datetime.strptime(date_str, "%Y-%m-%d").year
