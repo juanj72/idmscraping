@@ -2,10 +2,15 @@ import json
 from src.scraper.strategies.bfsp_request import BfspRequestScraper
 from src.scraper.dowloader import DownloaderHelper
 from src.orchestrator import BfspRequestScraper as OrchestratorBfspRequestScraper
+import time
+
 if __name__ == "__main__":
+    start_time = time.time()
     downloader = DownloaderHelper()
     url = "https://www.imdb.com/chart/top/?groups=top_250&count=250"
     scraper = BfspRequestScraper(downloader)
-    orchestrator_scraper = OrchestratorBfspRequestScraper(scraper)
+    orchestrator_scraper = OrchestratorBfspRequestScraper(scraper, 8, 0)
     movies = orchestrator_scraper.get_movies(url)
     print(movies)
+    end_time = time.time()
+    print(f"Tiempo total de ejecución: {end_time - start_time:.2f} segundos")
