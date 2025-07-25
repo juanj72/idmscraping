@@ -11,9 +11,11 @@ class DownloaderHelper:
         }
 
     def get_html(self, url: str) -> str:
+        session = requests.Session()
+        session.headers.update(self.headers)
         try:
-            response = requests.get(
-                url, allow_redirects=True, timeout=30, headers=self.headers
+            response = session.get(
+                url, allow_redirects=True, timeout=30
             )
             response.raise_for_status()
             return response.text
