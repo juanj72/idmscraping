@@ -11,6 +11,7 @@ if __name__ == "__main__":
     scraper = BfspRequestScraper(downloader)
     orchestrator_scraper = OrchestratorBfspRequestScraper(scraper, 8, 0)
     movies = orchestrator_scraper.get_movies(url)
-    print(movies)
+    with open("movies.json", "w") as f:
+        f.write(json.dumps(movies, indent=4, ensure_ascii=False))
     end_time = time.time()
     print(f"Tiempo total de ejecución: {end_time - start_time:.2f} segundos")

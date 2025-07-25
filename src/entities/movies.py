@@ -12,6 +12,7 @@ class Movie:
     title: str
     year: int
     qualification: int
-    duration: str
+    duration: float
     metascore: float
+    url: str
     actors: List[Actor]

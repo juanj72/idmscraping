@@ -6,6 +6,8 @@ from src.utils.dict_get import dict_get
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 from threading import Lock
+from dataclasses import asdict
+from src.utils.convert_to_minutes import convert_duration_to_minutes_iso
 
 
 class BfspRequestScraper:
@@ -14,6 +16,10 @@ class BfspRequestScraper:
         self.max_workers = max_workers
         self.delay = delay  # Delay between requests
         self.lock = Lock()  # to thread-safe operations
+
+    def _convert_to_dict(self,movies: List[Movie]) -> List[dict]:
+        """Convert a list of Movie objects to a list of dictionaries."""
+        return [asdict(movie) for movie in movies]
 
     def get_movies(self, base_url: str) -> List[Movie]:
         movies = self.scraper.get_data(base_url).get("itemListElement", [])
@@ -56,7 +62,7 @@ class BfspRequestScraper:
                 except Exception as e:
                     print(f"✗ Error en {url}: {e}")
 
-        return movie_objects  
+        return self._convert_to_dict(movie_objects)
 
     def _process_movie_with_retry(
         self, url_detail: str, index: int, max_retries: int = 3
@@ -80,10 +86,11 @@ class BfspRequestScraper:
                     qualification=dict_get(
                         detail, ["review", "reviewRating", "worstRating"], "N/A"
                     ),
-                    duration=detail.get("duration", "N/A"),
+                    duration=convert_duration_to_minutes_iso(detail.get("duration", "N/A")),
                     metascore=float(
                         detail.get("aggregateRating", {}).get("ratingValue", 0)
                     ),
+                    url=url_detail,
                     actors=actors,
                 )
 

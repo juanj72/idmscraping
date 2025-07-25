@@ -1,0 +1,4752 @@
+[
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 201,
+        "metascore": 9.0,
+        "url": "https://www.imdb.com/title/tt0167260/",
+        "actors": [
+            {
+                "name": "Elijah Wood"
+            },
+            {
+                "name": "Viggo Mortensen"
+            },
+            {
+                "name": "Ian McKellen"
+            }
+        ]
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "qualification": 1,
+        "duration": 142,
+        "metascore": 9.3,
+        "url": "https://www.imdb.com/title/tt0111161/",
+        "actors": [
+            {
+                "name": "Tim Robbins"
+            },
+            {
+                "name": "Morgan Freeman"
+            },
+            {
+                "name": "Bob Gunton"
+            }
+        ]
+    },
+    {
+        "title": "The Dark Knight",
+        "year": 2008,
+        "qualification": 1,
+        "duration": 152,
+        "metascore": 9.1,
+        "url": "https://www.imdb.com/title/tt0468569/",
+        "actors": [
+            {
+                "name": "Christian Bale"
+            },
+            {
+                "name": "Heath Ledger"
+            },
+            {
+                "name": "Aaron Eckhart"
+            }
+        ]
+    },
+    {
+        "title": "The Godfather",
+        "year": 1972,
+        "qualification": 1,
+        "duration": 175,
+        "metascore": 9.2,
+        "url": "https://www.imdb.com/title/tt0068646/",
+        "actors": [
+            {
+                "name": "Marlon Brando"
+            },
+            {
+                "name": "Al Pacino"
+            },
+            {
+                "name": "James Caan"
+            }
+        ]
+    },
+    {
+        "title": "Schindler&apos;s List",
+        "year": 1994,
+        "qualification": 1,
+        "duration": 195,
+        "metascore": 9.0,
+        "url": "https://www.imdb.com/title/tt0108052/",
+        "actors": [
+            {
+                "name": "Liam Neeson"
+            },
+            {
+                "name": "Ralph Fiennes"
+            },
+            {
+                "name": "Ben Kingsley"
+            }
+        ]
+    },
+    {
+        "title": "The Godfather Part II",
+        "year": 1974,
+        "qualification": 1,
+        "duration": 202,
+        "metascore": 9.0,
+        "url": "https://www.imdb.com/title/tt0071562/",
+        "actors": [
+            {
+                "name": "Al Pacino"
+            },
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Robert Duvall"
+            }
+        ]
+    },
+    {
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "qualification": 1,
+        "duration": 154,
+        "metascore": 8.8,
+        "url": "https://www.imdb.com/title/tt0110912/",
+        "actors": [
+            {
+                "name": "John Travolta"
+            },
+            {
+                "name": "Uma Thurman"
+            },
+            {
+                "name": "Samuel L. Jackson"
+            }
+        ]
+    },
+    {
+        "title": "12 Angry Men",
+        "year": 1957,
+        "qualification": "N/A",
+        "duration": 96,
+        "metascore": 9.0,
+        "url": "https://www.imdb.com/title/tt0050083/",
+        "actors": [
+            {
+                "name": "Henry Fonda"
+            },
+            {
+                "name": "Lee J. Cobb"
+            },
+            {
+                "name": "Martin Balsam"
+            }
+        ]
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": 2001,
+        "qualification": 1,
+        "duration": 178,
+        "metascore": 8.9,
+        "url": "https://www.imdb.com/title/tt0120737/",
+        "actors": [
+            {
+                "name": "Elijah Wood"
+            },
+            {
+                "name": "Ian McKellen"
+            },
+            {
+                "name": "Orlando Bloom"
+            }
+        ]
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "year": 2002,
+        "qualification": "N/A",
+        "duration": 179,
+        "metascore": 8.8,
+        "url": "https://www.imdb.com/title/tt0167261/",
+        "actors": [
+            {
+                "name": "Elijah Wood"
+            },
+            {
+                "name": "Ian McKellen"
+            },
+            {
+                "name": "Viggo Mortensen"
+            }
+        ]
+    },
+    {
+        "title": "Forrest Gump",
+        "year": 1994,
+        "qualification": 1,
+        "duration": 142,
+        "metascore": 8.8,
+        "url": "https://www.imdb.com/title/tt0109830/",
+        "actors": [
+            {
+                "name": "Tom Hanks"
+            },
+            {
+                "name": "Robin Wright"
+            },
+            {
+                "name": "Gary Sinise"
+            }
+        ]
+    },
+    {
+        "title": "Inception",
+        "year": 2010,
+        "qualification": 1,
+        "duration": 148,
+        "metascore": 8.8,
+        "url": "https://www.imdb.com/title/tt1375666/",
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio"
+            },
+            {
+                "name": "Joseph Gordon-Levitt"
+            },
+            {
+                "name": "Elliot Page"
+            }
+        ]
+    },
+    {
+        "title": "Il buono, il brutto, il cattivo",
+        "year": 1967,
+        "qualification": 1,
+        "duration": 178,
+        "metascore": 8.8,
+        "url": "https://www.imdb.com/title/tt0060196/",
+        "actors": [
+            {
+                "name": "Clint Eastwood"
+            },
+            {
+                "name": "Eli Wallach"
+            },
+            {
+                "name": "Lee Van Cleef"
+            }
+        ]
+    },
+    {
+        "title": "Fight Club",
+        "year": 1999,
+        "qualification": 1,
+        "duration": 139,
+        "metascore": 8.8,
+        "url": "https://www.imdb.com/title/tt0137523/",
+        "actors": [
+            {
+                "name": "Brad Pitt"
+            },
+            {
+                "name": "Edward Norton"
+            },
+            {
+                "name": "Meat Loaf"
+            }
+        ]
+    },
+    {
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "year": 1980,
+        "qualification": "N/A",
+        "duration": 124,
+        "metascore": 8.7,
+        "url": "https://www.imdb.com/title/tt0080684/",
+        "actors": [
+            {
+                "name": "Mark Hamill"
+            },
+            {
+                "name": "Harrison Ford"
+            },
+            {
+                "name": "Carrie Fisher"
+            }
+        ]
+    },
+    {
+        "title": "GoodFellas",
+        "year": 1990,
+        "qualification": 1,
+        "duration": 145,
+        "metascore": 8.7,
+        "url": "https://www.imdb.com/title/tt0099685/",
+        "actors": [
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Ray Liotta"
+            },
+            {
+                "name": "Joe Pesci"
+            }
+        ]
+    },
+    {
+        "title": "The Matrix",
+        "year": 1999,
+        "qualification": 1,
+        "duration": 136,
+        "metascore": 8.7,
+        "url": "https://www.imdb.com/title/tt0133093/",
+        "actors": [
+            {
+                "name": "Keanu Reeves"
+            },
+            {
+                "name": "Laurence Fishburne"
+            },
+            {
+                "name": "Carrie-Anne Moss"
+            }
+        ]
+    },
+    {
+        "title": "Interstellar",
+        "year": 2014,
+        "qualification": 1,
+        "duration": 169,
+        "metascore": 8.7,
+        "url": "https://www.imdb.com/title/tt0816692/",
+        "actors": [
+            {
+                "name": "Matthew McConaughey"
+            },
+            {
+                "name": "Anne Hathaway"
+            },
+            {
+                "name": "Jessica Chastain"
+            }
+        ]
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "year": 1991,
+        "qualification": "N/A",
+        "duration": 118,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0102926/",
+        "actors": [
+            {
+                "name": "Jodie Foster"
+            },
+            {
+                "name": "Anthony Hopkins"
+            },
+            {
+                "name": "Scott Glenn"
+            }
+        ]
+    },
+    {
+        "title": "Saving Private Ryan",
+        "year": 1998,
+        "qualification": "N/A",
+        "duration": 169,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0120815/",
+        "actors": [
+            {
+                "name": "Tom Hanks"
+            },
+            {
+                "name": "Matt Damon"
+            },
+            {
+                "name": "Tom Sizemore"
+            }
+        ]
+    },
+    {
+        "title": "Shichinin no samurai",
+        "year": 1956,
+        "qualification": "N/A",
+        "duration": 207,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0047478/",
+        "actors": [
+            {
+                "name": "Toshirô Mifune"
+            },
+            {
+                "name": "Takashi Shimura"
+            },
+            {
+                "name": "Keiko Tsushima"
+            }
+        ]
+    },
+    {
+        "title": "The Green Mile",
+        "year": 1999,
+        "qualification": 1,
+        "duration": 189,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0120689/",
+        "actors": [
+            {
+                "name": "Tom Hanks"
+            },
+            {
+                "name": "Michael Clarke Duncan"
+            },
+            {
+                "name": "David Morse"
+            }
+        ]
+    },
+    {
+        "title": "Se7en",
+        "year": 1995,
+        "qualification": 1,
+        "duration": 127,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0114369/",
+        "actors": [
+            {
+                "name": "Morgan Freeman"
+            },
+            {
+                "name": "Brad Pitt"
+            },
+            {
+                "name": "Kevin Spacey"
+            }
+        ]
+    },
+    {
+        "title": "Cidade de Deus",
+        "year": 2004,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0317248/",
+        "actors": [
+            {
+                "name": "Alexandre Rodrigues"
+            },
+            {
+                "name": "Leandro Firmino"
+            },
+            {
+                "name": "Matheus Nachtergaele"
+            }
+        ]
+    },
+    {
+        "title": "One Flew Over the Cuckoo&apos;s Nest",
+        "year": 1975,
+        "qualification": 1,
+        "duration": 133,
+        "metascore": 8.7,
+        "url": "https://www.imdb.com/title/tt0073486/",
+        "actors": [
+            {
+                "name": "Jack Nicholson"
+            },
+            {
+                "name": "Louise Fletcher"
+            },
+            {
+                "name": "Michael Berryman"
+            }
+        ]
+    },
+    {
+        "title": "It&apos;s a Wonderful Life",
+        "year": 1947,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0038650/",
+        "actors": [
+            {
+                "name": "James Stewart"
+            },
+            {
+                "name": "Donna Reed"
+            },
+            {
+                "name": "Lionel Barrymore"
+            }
+        ]
+    },
+    {
+        "title": "La vita è bella",
+        "year": 1997,
+        "qualification": 1,
+        "duration": 116,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0118799/",
+        "actors": [
+            {
+                "name": "Roberto Benigni"
+            },
+            {
+                "name": "Nicoletta Braschi"
+            },
+            {
+                "name": "Giorgio Cantarini"
+            }
+        ]
+    },
+    {
+        "title": "Back to the Future",
+        "year": 1985,
+        "qualification": 1,
+        "duration": 116,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0088763/",
+        "actors": [
+            {
+                "name": "Michael J. Fox"
+            },
+            {
+                "name": "Christopher Lloyd"
+            },
+            {
+                "name": "Lea Thompson"
+            }
+        ]
+    },
+    {
+        "title": "Terminator 2: Judgment Day",
+        "year": 1991,
+        "qualification": 1,
+        "duration": 137,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0103064/",
+        "actors": [
+            {
+                "name": "Arnold Schwarzenegger"
+            },
+            {
+                "name": "Linda Hamilton"
+            },
+            {
+                "name": "Edward Furlong"
+            }
+        ]
+    },
+    {
+        "title": "Star Wars",
+        "year": 1977,
+        "qualification": 1,
+        "duration": 121,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0076759/",
+        "actors": [
+            {
+                "name": "Mark Hamill"
+            },
+            {
+                "name": "Harrison Ford"
+            },
+            {
+                "name": "Carrie Fisher"
+            }
+        ]
+    },
+    {
+        "title": "Sen to Chihiro no kamikakushi",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 124,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0245429/",
+        "actors": [
+            {
+                "name": "Daveigh Chase"
+            },
+            {
+                "name": "Suzanne Pleshette"
+            },
+            {
+                "name": "Miyu Irino"
+            }
+        ]
+    },
+    {
+        "title": "Hotaru no haka",
+        "year": 1989,
+        "qualification": 1,
+        "duration": 88,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0095327/",
+        "actors": [
+            {
+                "name": "Tsutomu Tatsumi"
+            },
+            {
+                "name": "Ayano Shiraishi"
+            },
+            {
+                "name": "Akemi Yamaguchi"
+            }
+        ]
+    },
+    {
+        "title": "The Lion King",
+        "year": 1994,
+        "qualification": 1,
+        "duration": 88,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0110357/",
+        "actors": [
+            {
+                "name": "Matthew Broderick"
+            },
+            {
+                "name": "Jeremy Irons"
+            },
+            {
+                "name": "James Earl Jones"
+            }
+        ]
+    },
+    {
+        "title": "Gisaengchung",
+        "year": 2019,
+        "qualification": 1,
+        "duration": 132,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt6751668/",
+        "actors": [
+            {
+                "name": "Song Kang-ho"
+            },
+            {
+                "name": "Lee Sun-kyun"
+            },
+            {
+                "name": "Cho Yeo-jeong"
+            }
+        ]
+    },
+    {
+        "title": "The Departed",
+        "year": 2006,
+        "qualification": 1,
+        "duration": 151,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0407887/",
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio"
+            },
+            {
+                "name": "Matt Damon"
+            },
+            {
+                "name": "Jack Nicholson"
+            }
+        ]
+    },
+    {
+        "title": "The Pianist",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 150,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0253474/",
+        "actors": [
+            {
+                "name": "Adrien Brody"
+            },
+            {
+                "name": "Thomas Kretschmann"
+            },
+            {
+                "name": "Frank Finlay"
+            }
+        ]
+    },
+    {
+        "title": "Psycho",
+        "year": 1960,
+        "qualification": 1,
+        "duration": 109,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0054215/",
+        "actors": [
+            {
+                "name": "Anthony Perkins"
+            },
+            {
+                "name": "Janet Leigh"
+            },
+            {
+                "name": "Vera Miles"
+            }
+        ]
+    },
+    {
+        "title": "Seppuku",
+        "year": 1964,
+        "qualification": 1,
+        "duration": 133,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt0056058/",
+        "actors": [
+            {
+                "name": "Tatsuya Nakadai"
+            },
+            {
+                "name": "Akira Ishihama"
+            },
+            {
+                "name": "Shima Iwashita"
+            }
+        ]
+    },
+    {
+        "title": "Gladiator",
+        "year": 2000,
+        "qualification": 1,
+        "duration": 155,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0172495/",
+        "actors": [
+            {
+                "name": "Russell Crowe"
+            },
+            {
+                "name": "Joaquin Phoenix"
+            },
+            {
+                "name": "Connie Nielsen"
+            }
+        ]
+    },
+    {
+        "title": "American History X",
+        "year": 1998,
+        "qualification": 1,
+        "duration": 119,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0120586/",
+        "actors": [
+            {
+                "name": "Edward Norton"
+            },
+            {
+                "name": "Edward Furlong"
+            },
+            {
+                "name": "Beverly D&apos;Angelo"
+            }
+        ]
+    },
+    {
+        "title": "Whiplash",
+        "year": 2014,
+        "qualification": 1,
+        "duration": 106,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt2582802/",
+        "actors": [
+            {
+                "name": "Miles Teller"
+            },
+            {
+                "name": "J.K. Simmons"
+            },
+            {
+                "name": "Melissa Benoist"
+            }
+        ]
+    },
+    {
+        "title": "Léon",
+        "year": 1994,
+        "qualification": 1,
+        "duration": 110,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0110413/",
+        "actors": [
+            {
+                "name": "Jean Reno"
+            },
+            {
+                "name": "Gary Oldman"
+            },
+            {
+                "name": "Natalie Portman"
+            }
+        ]
+    },
+    {
+        "title": "The Prestige",
+        "year": 2006,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0482571/",
+        "actors": [
+            {
+                "name": "Christian Bale"
+            },
+            {
+                "name": "Hugh Jackman"
+            },
+            {
+                "name": "Scarlett Johansson"
+            }
+        ]
+    },
+    {
+        "title": "Rear Window",
+        "year": 1954,
+        "qualification": "N/A",
+        "duration": 112,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0047396/",
+        "actors": [
+            {
+                "name": "James Stewart"
+            },
+            {
+                "name": "Grace Kelly"
+            },
+            {
+                "name": "Wendell Corey"
+            }
+        ]
+    },
+    {
+        "title": "The Usual Suspects",
+        "year": 1995,
+        "qualification": 1,
+        "duration": 106,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0114814/",
+        "actors": [
+            {
+                "name": "Kevin Spacey"
+            },
+            {
+                "name": "Gabriel Byrne"
+            },
+            {
+                "name": "Chazz Palminteri"
+            }
+        ]
+    },
+    {
+        "title": "Alien",
+        "year": 1979,
+        "qualification": 1,
+        "duration": 117,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0078748/",
+        "actors": [
+            {
+                "name": "Sigourney Weaver"
+            },
+            {
+                "name": "Tom Skerritt"
+            },
+            {
+                "name": "John Hurt"
+            }
+        ]
+    },
+    {
+        "title": "Intouchables",
+        "year": 2011,
+        "qualification": "N/A",
+        "duration": 112,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt1675434/",
+        "actors": [
+            {
+                "name": "François Cluzet"
+            },
+            {
+                "name": "Omar Sy"
+            },
+            {
+                "name": "Anne Le Ny"
+            }
+        ]
+    },
+    {
+        "title": "Spider-Man: Across the Spider-Verse",
+        "year": 2023,
+        "qualification": 1,
+        "duration": 140,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt9362722/",
+        "actors": [
+            {
+                "name": "Shameik Moore"
+            },
+            {
+                "name": "Hailee Steinfeld"
+            },
+            {
+                "name": "Brian Tyree Henry"
+            }
+        ]
+    },
+    {
+        "title": "Modern Times",
+        "year": 1936,
+        "qualification": 1,
+        "duration": 87,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0027977/",
+        "actors": [
+            {
+                "name": "Charles Chaplin"
+            },
+            {
+                "name": "Paulette Goddard"
+            },
+            {
+                "name": "Henry Bergman"
+            }
+        ]
+    },
+    {
+        "title": "Casablanca",
+        "year": 1943,
+        "qualification": "N/A",
+        "duration": 102,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0034583/",
+        "actors": [
+            {
+                "name": "Humphrey Bogart"
+            },
+            {
+                "name": "Ingrid Bergman"
+            },
+            {
+                "name": "Paul Henreid"
+            }
+        ]
+    },
+    {
+        "title": "Nuovo Cinema Paradiso",
+        "year": 1990,
+        "qualification": 1,
+        "duration": 174,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0095765/",
+        "actors": [
+            {
+                "name": "Philippe Noiret"
+            },
+            {
+                "name": "Enzo Cannavale"
+            },
+            {
+                "name": "Antonella Attili"
+            }
+        ]
+    },
+    {
+        "title": "WALL·E",
+        "year": 2008,
+        "qualification": 1,
+        "duration": 98,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0910970/",
+        "actors": [
+            {
+                "name": "Ben Burtt"
+            },
+            {
+                "name": "Elissa Knight"
+            },
+            {
+                "name": "Jeff Garlin"
+            }
+        ]
+    },
+    {
+        "title": "Apocalypse Now",
+        "year": 1979,
+        "qualification": 1,
+        "duration": 147,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0078788/",
+        "actors": [
+            {
+                "name": "Martin Sheen"
+            },
+            {
+                "name": "Marlon Brando"
+            },
+            {
+                "name": "Robert Duvall"
+            }
+        ]
+    },
+    {
+        "title": "City Lights",
+        "year": 1931,
+        "qualification": "N/A",
+        "duration": 87,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0021749/",
+        "actors": [
+            {
+                "name": "Charles Chaplin"
+            },
+            {
+                "name": "Virginia Cherrill"
+            },
+            {
+                "name": "Florence Lee"
+            }
+        ]
+    },
+    {
+        "title": "C&apos;era una volta il West",
+        "year": 1969,
+        "qualification": 1,
+        "duration": 166,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0064116/",
+        "actors": [
+            {
+                "name": "Henry Fonda"
+            },
+            {
+                "name": "Charles Bronson"
+            },
+            {
+                "name": "Claudia Cardinale"
+            }
+        ]
+    },
+    {
+        "title": "Django Unchained",
+        "year": 2012,
+        "qualification": 1,
+        "duration": 165,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt1853728/",
+        "actors": [
+            {
+                "name": "Jamie Foxx"
+            },
+            {
+                "name": "Christoph Waltz"
+            },
+            {
+                "name": "Leonardo DiCaprio"
+            }
+        ]
+    },
+    {
+        "title": "Dune: Part Two",
+        "year": 2024,
+        "qualification": 1,
+        "duration": 166,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt15239678/",
+        "actors": [
+            {
+                "name": "Timothée Chalamet"
+            },
+            {
+                "name": "Zendaya"
+            },
+            {
+                "name": "Rebecca Ferguson"
+            }
+        ]
+    },
+    {
+        "title": "Memento",
+        "year": 2001,
+        "qualification": 1,
+        "duration": 113,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0209144/",
+        "actors": [
+            {
+                "name": "Guy Pearce"
+            },
+            {
+                "name": "Carrie-Anne Moss"
+            },
+            {
+                "name": "Joe Pantoliano"
+            }
+        ]
+    },
+    {
+        "title": "Raiders of the Lost Ark",
+        "year": 1981,
+        "qualification": 1,
+        "duration": 115,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0082971/",
+        "actors": [
+            {
+                "name": "Harrison Ford"
+            },
+            {
+                "name": "Karen Allen"
+            },
+            {
+                "name": "Paul Freeman"
+            }
+        ]
+    },
+    {
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "qualification": 1,
+        "duration": 149,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt4154756/",
+        "actors": [
+            {
+                "name": "Robert Downey Jr."
+            },
+            {
+                "name": "Chris Hemsworth"
+            },
+            {
+                "name": "Mark Ruffalo"
+            }
+        ]
+    },
+    {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "year": 2018,
+        "qualification": 1,
+        "duration": 117,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt4633694/",
+        "actors": [
+            {
+                "name": "Shameik Moore"
+            },
+            {
+                "name": "Jake Johnson"
+            },
+            {
+                "name": "Hailee Steinfeld"
+            }
+        ]
+    },
+    {
+        "title": "Sunset Blvd.",
+        "year": 1950,
+        "qualification": "N/A",
+        "duration": 110,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0043014/",
+        "actors": [
+            {
+                "name": "William Holden"
+            },
+            {
+                "name": "Gloria Swanson"
+            },
+            {
+                "name": "Erich von Stroheim"
+            }
+        ]
+    },
+    {
+        "title": "The Shining",
+        "year": 1980,
+        "qualification": 1,
+        "duration": 146,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0081505/",
+        "actors": [
+            {
+                "name": "Jack Nicholson"
+            },
+            {
+                "name": "Shelley Duvall"
+            },
+            {
+                "name": "Danny Lloyd"
+            }
+        ]
+    },
+    {
+        "title": "Das Leben der Anderen",
+        "year": 2007,
+        "qualification": 1,
+        "duration": 137,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0405094/",
+        "actors": [
+            {
+                "name": "Ulrich Mühe"
+            },
+            {
+                "name": "Martina Gedeck"
+            },
+            {
+                "name": "Sebastian Koch"
+            }
+        ]
+    },
+    {
+        "title": "The Great Dictator",
+        "year": 1941,
+        "qualification": 1,
+        "duration": 125,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0032553/",
+        "actors": [
+            {
+                "name": "Charles Chaplin"
+            },
+            {
+                "name": "Paulette Goddard"
+            },
+            {
+                "name": "Jack Oakie"
+            }
+        ]
+    },
+    {
+        "title": "Witness for the Prosecution",
+        "year": 1958,
+        "qualification": 1,
+        "duration": 116,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0051201/",
+        "actors": [
+            {
+                "name": "Tyrone Power"
+            },
+            {
+                "name": "Marlene Dietrich"
+            },
+            {
+                "name": "Charles Laughton"
+            }
+        ]
+    },
+    {
+        "title": "12th Fail",
+        "year": 2023,
+        "qualification": 1,
+        "duration": 147,
+        "metascore": 8.7,
+        "url": "https://www.imdb.com/title/tt23849204/",
+        "actors": [
+            {
+                "name": "Vikrant Massey"
+            },
+            {
+                "name": "Medha Shankr"
+            },
+            {
+                "name": "Anant Joshi"
+            }
+        ]
+    },
+    {
+        "title": "Paths of Glory",
+        "year": 1957,
+        "qualification": 1,
+        "duration": 88,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0050825/",
+        "actors": [
+            {
+                "name": "Kirk Douglas"
+            },
+            {
+                "name": "Ralph Meeker"
+            },
+            {
+                "name": "Adolphe Menjou"
+            }
+        ]
+    },
+    {
+        "title": "Inglourious Basterds",
+        "year": 2009,
+        "qualification": 1,
+        "duration": 153,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0361748/",
+        "actors": [
+            {
+                "name": "Brad Pitt"
+            },
+            {
+                "name": "Diane Kruger"
+            },
+            {
+                "name": "Eli Roth"
+            }
+        ]
+    },
+    {
+        "title": "Aliens",
+        "year": 1986,
+        "qualification": 1,
+        "duration": 137,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0090605/",
+        "actors": [
+            {
+                "name": "Sigourney Weaver"
+            },
+            {
+                "name": "Michael Biehn"
+            },
+            {
+                "name": "Carrie Henn"
+            }
+        ]
+    },
+    {
+        "title": "The Dark Knight Rises",
+        "year": 2012,
+        "qualification": 1,
+        "duration": 164,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt1345836/",
+        "actors": [
+            {
+                "name": "Christian Bale"
+            },
+            {
+                "name": "Tom Hardy"
+            },
+            {
+                "name": "Anne Hathaway"
+            }
+        ]
+    },
+    {
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "qualification": 1,
+        "duration": 181,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt4154796/",
+        "actors": [
+            {
+                "name": "Robert Downey Jr."
+            },
+            {
+                "name": "Chris Evans"
+            },
+            {
+                "name": "Mark Ruffalo"
+            }
+        ]
+    },
+    {
+        "title": "Toy Story",
+        "year": 1995,
+        "qualification": 1,
+        "duration": 81,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0114709/",
+        "actors": [
+            {
+                "name": "Tom Hanks"
+            },
+            {
+                "name": "Tim Allen"
+            },
+            {
+                "name": "Don Rickles"
+            }
+        ]
+    },
+    {
+        "title": "Amadeus",
+        "year": 1984,
+        "qualification": "N/A",
+        "duration": 160,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0086879/",
+        "actors": [
+            {
+                "name": "F. Murray Abraham"
+            },
+            {
+                "name": "Tom Hulce"
+            },
+            {
+                "name": "Elizabeth Berridge"
+            }
+        ]
+    },
+    {
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "year": 1964,
+        "qualification": 1,
+        "duration": 95,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0057012/",
+        "actors": [
+            {
+                "name": "Peter Sellers"
+            },
+            {
+                "name": "George C. Scott"
+            },
+            {
+                "name": "Sterling Hayden"
+            }
+        ]
+    },
+    {
+        "title": "Oldeuboi",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 120,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0364569/",
+        "actors": [
+            {
+                "name": "Choi Min-sik"
+            },
+            {
+                "name": "Yoo Ji-tae"
+            },
+            {
+                "name": "Kang Hye-jeong"
+            }
+        ]
+    },
+    {
+        "title": "Coco",
+        "year": 2017,
+        "qualification": 1,
+        "duration": 105,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt2380307/",
+        "actors": [
+            {
+                "name": "Anthony Gonzalez"
+            },
+            {
+                "name": "Gael García Bernal"
+            },
+            {
+                "name": "Benjamin Bratt"
+            }
+        ]
+    },
+    {
+        "title": "Good Will Hunting",
+        "year": 1998,
+        "qualification": 1,
+        "duration": 126,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0119217/",
+        "actors": [
+            {
+                "name": "Robin Williams"
+            },
+            {
+                "name": "Matt Damon"
+            },
+            {
+                "name": "Ben Affleck"
+            }
+        ]
+    },
+    {
+        "title": "Tengoku to jigoku",
+        "year": 1963,
+        "qualification": 1,
+        "duration": 143,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0057565/",
+        "actors": [
+            {
+                "name": "Toshirô Mifune"
+            },
+            {
+                "name": "Yutaka Sada"
+            },
+            {
+                "name": "Tatsuya Nakadai"
+            }
+        ]
+    },
+    {
+        "title": "Mononoke-hime",
+        "year": 1997,
+        "qualification": 1,
+        "duration": 133,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0119698/",
+        "actors": [
+            {
+                "name": "Yôji Matsuda"
+            },
+            {
+                "name": "Yuriko Ishida"
+            },
+            {
+                "name": "Yûko Tanaka"
+            }
+        ]
+    },
+    {
+        "title": "3 Idiots",
+        "year": 2009,
+        "qualification": 1,
+        "duration": 170,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt1187043/",
+        "actors": [
+            {
+                "name": "Aamir Khan"
+            },
+            {
+                "name": "Madhavan"
+            },
+            {
+                "name": "Mona Singh"
+            }
+        ]
+    },
+    {
+        "title": "Braveheart",
+        "year": 1995,
+        "qualification": 1,
+        "duration": 178,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0112573/",
+        "actors": [
+            {
+                "name": "Mel Gibson"
+            },
+            {
+                "name": "Sophie Marceau"
+            },
+            {
+                "name": "Patrick McGoohan"
+            }
+        ]
+    },
+    {
+        "title": "Kimi no na wa.",
+        "year": 2017,
+        "qualification": 1,
+        "duration": 106,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt5311514/",
+        "actors": [
+            {
+                "name": "Ryûnosuke Kamiki"
+            },
+            {
+                "name": "Mone Kamishiraishi"
+            },
+            {
+                "name": "Ryo Narita"
+            }
+        ]
+    },
+    {
+        "title": "American Beauty",
+        "year": 1999,
+        "qualification": 1,
+        "duration": 122,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0169547/",
+        "actors": [
+            {
+                "name": "Kevin Spacey"
+            },
+            {
+                "name": "Annette Bening"
+            },
+            {
+                "name": "Thora Birch"
+            }
+        ]
+    },
+    {
+        "title": "Das Boot",
+        "year": 1982,
+        "qualification": 1,
+        "duration": 149,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt0082096/",
+        "actors": [
+            {
+                "name": "Jürgen Prochnow"
+            },
+            {
+                "name": "Herbert Grönemeyer"
+            },
+            {
+                "name": "Klaus Wennemann"
+            }
+        ]
+    },
+    {
+        "title": "Capharnaüm",
+        "year": 2018,
+        "qualification": 1,
+        "duration": 126,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt8267604/",
+        "actors": [
+            {
+                "name": "Zain Al Rafeea"
+            },
+            {
+                "name": "Yordanos Shiferaw"
+            },
+            {
+                "name": "Boluwatife Treasure Bankole"
+            }
+        ]
+    },
+    {
+        "title": "Joker",
+        "year": 2019,
+        "qualification": 1,
+        "duration": 122,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt7286456/",
+        "actors": [
+            {
+                "name": "Joaquin Phoenix"
+            },
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Zazie Beetz"
+            }
+        ]
+    },
+    {
+        "title": "Once Upon a Time in America",
+        "year": 1984,
+        "qualification": "N/A",
+        "duration": 229,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0087843/",
+        "actors": [
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "James Woods"
+            },
+            {
+                "name": "Elizabeth McGovern"
+            }
+        ]
+    },
+    {
+        "title": "Singin&apos; in the Rain",
+        "year": 1952,
+        "qualification": "N/A",
+        "duration": 103,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0045152/",
+        "actors": [
+            {
+                "name": "Gene Kelly"
+            },
+            {
+                "name": "Donald O&apos;Connor"
+            },
+            {
+                "name": "Debbie Reynolds"
+            }
+        ]
+    },
+    {
+        "title": "Idi i smotri",
+        "year": 1985,
+        "qualification": 1,
+        "duration": 142,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0091251/",
+        "actors": [
+            {
+                "name": "Aleksey Kravchenko"
+            },
+            {
+                "name": "Olga Mironova"
+            },
+            {
+                "name": "Liubomiras Laucevicius"
+            }
+        ]
+    },
+    {
+        "title": "Requiem for a Dream",
+        "year": 2000,
+        "qualification": "N/A",
+        "duration": 102,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0180093/",
+        "actors": [
+            {
+                "name": "Ellen Burstyn"
+            },
+            {
+                "name": "Jared Leto"
+            },
+            {
+                "name": "Jennifer Connelly"
+            }
+        ]
+    },
+    {
+        "title": "Jagten",
+        "year": 2012,
+        "qualification": "N/A",
+        "duration": 115,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt2106476/",
+        "actors": [
+            {
+                "name": "Mads Mikkelsen"
+            },
+            {
+                "name": "Thomas Bo Larsen"
+            },
+            {
+                "name": "Annika Wedderkopp"
+            }
+        ]
+    },
+    {
+        "title": "Star Wars: Episode VI - Return of the Jedi",
+        "year": 1983,
+        "qualification": 1,
+        "duration": 131,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0086190/",
+        "actors": [
+            {
+                "name": "Mark Hamill"
+            },
+            {
+                "name": "Harrison Ford"
+            },
+            {
+                "name": "Carrie Fisher"
+            }
+        ]
+    },
+    {
+        "title": "Toy Story 3",
+        "year": 2010,
+        "qualification": 1,
+        "duration": 103,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0435761/",
+        "actors": [
+            {
+                "name": "Tom Hanks"
+            },
+            {
+                "name": "Tim Allen"
+            },
+            {
+                "name": "Joan Cusack"
+            }
+        ]
+    },
+    {
+        "title": "Ikiru",
+        "year": 1956,
+        "qualification": 1,
+        "duration": 143,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0044741/",
+        "actors": [
+            {
+                "name": "Takashi Shimura"
+            },
+            {
+                "name": "Nobuo Kaneko"
+            },
+            {
+                "name": "Shin&apos;ichi Himori"
+            }
+        ]
+    },
+    {
+        "title": "Incendies",
+        "year": 2011,
+        "qualification": 1,
+        "duration": 131,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt1255953/",
+        "actors": [
+            {
+                "name": "Lubna Azabal"
+            },
+            {
+                "name": "Mélissa Désormeaux-Poulin"
+            },
+            {
+                "name": "Maxim Gaudette"
+            }
+        ]
+    },
+    {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "year": 2004,
+        "qualification": 1,
+        "duration": 108,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0338013/",
+        "actors": [
+            {
+                "name": "Jim Carrey"
+            },
+            {
+                "name": "Kate Winslet"
+            },
+            {
+                "name": "Tom Wilkinson"
+            }
+        ]
+    },
+    {
+        "title": "Reservoir Dogs",
+        "year": 1992,
+        "qualification": "N/A",
+        "duration": 99,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0105236/",
+        "actors": [
+            {
+                "name": "Harvey Keitel"
+            },
+            {
+                "name": "Tim Roth"
+            },
+            {
+                "name": "Michael Madsen"
+            }
+        ]
+    },
+    {
+        "title": "2001: A Space Odyssey",
+        "year": 1968,
+        "qualification": 1,
+        "duration": 149,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0062622/",
+        "actors": [
+            {
+                "name": "Keir Dullea"
+            },
+            {
+                "name": "Gary Lockwood"
+            },
+            {
+                "name": "William Sylvester"
+            }
+        ]
+    },
+    {
+        "title": "Heat",
+        "year": 1995,
+        "qualification": 1,
+        "duration": 170,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0113277/",
+        "actors": [
+            {
+                "name": "Al Pacino"
+            },
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Val Kilmer"
+            }
+        ]
+    },
+    {
+        "title": "Double Indemnity",
+        "year": 1944,
+        "qualification": "N/A",
+        "duration": 107,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0036775/",
+        "actors": [
+            {
+                "name": "Fred MacMurray"
+            },
+            {
+                "name": "Barbara Stanwyck"
+            },
+            {
+                "name": "Edward G. Robinson"
+            }
+        ]
+    },
+    {
+        "title": "Scarface",
+        "year": 1983,
+        "qualification": 1,
+        "duration": 170,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0086250/",
+        "actors": [
+            {
+                "name": "Al Pacino"
+            },
+            {
+                "name": "Michelle Pfeiffer"
+            },
+            {
+                "name": "Steven Bauer"
+            }
+        ]
+    },
+    {
+        "title": "North by Northwest",
+        "year": 1959,
+        "qualification": "N/A",
+        "duration": 136,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0053125/",
+        "actors": [
+            {
+                "name": "Cary Grant"
+            },
+            {
+                "name": "Eva Marie Saint"
+            },
+            {
+                "name": "James Mason"
+            }
+        ]
+    },
+    {
+        "title": "Up",
+        "year": 2009,
+        "qualification": 1,
+        "duration": 96,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt1049413/",
+        "actors": [
+            {
+                "name": "Edward Asner"
+            },
+            {
+                "name": "Jordan Nagai"
+            },
+            {
+                "name": "John Ratzenberger"
+            }
+        ]
+    },
+    {
+        "title": "M - Eine Stadt sucht einen Mörder",
+        "year": 1931,
+        "qualification": 1,
+        "duration": 99,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0022100/",
+        "actors": [
+            {
+                "name": "Peter Lorre"
+            },
+            {
+                "name": "Ellen Widmann"
+            },
+            {
+                "name": "Inge Landgut"
+            }
+        ]
+    },
+    {
+        "title": "Lawrence of Arabia",
+        "year": 2013,
+        "qualification": 1,
+        "duration": 227,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0056172/",
+        "actors": [
+            {
+                "name": "Peter O&apos;Toole"
+            },
+            {
+                "name": "Alec Guinness"
+            },
+            {
+                "name": "Anthony Quinn"
+            }
+        ]
+    },
+    {
+        "title": "The Apartment",
+        "year": 1960,
+        "qualification": 1,
+        "duration": 125,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0053604/",
+        "actors": [
+            {
+                "name": "Jack Lemmon"
+            },
+            {
+                "name": "Shirley MacLaine"
+            },
+            {
+                "name": "Fred MacMurray"
+            }
+        ]
+    },
+    {
+        "title": "Vertigo",
+        "year": 1958,
+        "qualification": "N/A",
+        "duration": 128,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0052357/",
+        "actors": [
+            {
+                "name": "James Stewart"
+            },
+            {
+                "name": "Kim Novak"
+            },
+            {
+                "name": "Barbara Bel Geddes"
+            }
+        ]
+    },
+    {
+        "title": "Full Metal Jacket",
+        "year": 1987,
+        "qualification": "N/A",
+        "duration": 116,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0093058/",
+        "actors": [
+            {
+                "name": "Matthew Modine"
+            },
+            {
+                "name": "R. Lee Ermey"
+            },
+            {
+                "name": "Vincent D&apos;Onofrio"
+            }
+        ]
+    },
+    {
+        "title": "Jodaeiye Nader az Simin",
+        "year": 2011,
+        "qualification": "N/A",
+        "duration": 123,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt1832382/",
+        "actors": [
+            {
+                "name": "Payman Maadi"
+            },
+            {
+                "name": "Leila Hatami"
+            },
+            {
+                "name": "Sareh Bayat"
+            }
+        ]
+    },
+    {
+        "title": "Taare Zameen Par",
+        "year": 2007,
+        "qualification": 1,
+        "duration": 162,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0986264/",
+        "actors": [
+            {
+                "name": "Darsheel Safary"
+            },
+            {
+                "name": "Aamir Khan"
+            },
+            {
+                "name": "Tisca Chopra"
+            }
+        ]
+    },
+    {
+        "title": "Le fabuleux destin d&apos;Amélie Poulain",
+        "year": 2002,
+        "qualification": 1,
+        "duration": 122,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0211915/",
+        "actors": [
+            {
+                "name": "Audrey Tautou"
+            },
+            {
+                "name": "Mathieu Kassovitz"
+            },
+            {
+                "name": "Rufus"
+            }
+        ]
+    },
+    {
+        "title": "Die Hard",
+        "year": 1988,
+        "qualification": 1,
+        "duration": 132,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0095016/",
+        "actors": [
+            {
+                "name": "Bruce Willis"
+            },
+            {
+                "name": "Alan Rickman"
+            },
+            {
+                "name": "Bonnie Bedelia"
+            }
+        ]
+    },
+    {
+        "title": "Citizen Kane",
+        "year": 1941,
+        "qualification": "N/A",
+        "duration": 119,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0033467/",
+        "actors": [
+            {
+                "name": "Orson Welles"
+            },
+            {
+                "name": "Joseph Cotten"
+            },
+            {
+                "name": "Dorothy Comingore"
+            }
+        ]
+    },
+    {
+        "title": "The Sting",
+        "year": 1973,
+        "qualification": 1,
+        "duration": 129,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0070735/",
+        "actors": [
+            {
+                "name": "Paul Newman"
+            },
+            {
+                "name": "Robert Redford"
+            },
+            {
+                "name": "Robert Shaw"
+            }
+        ]
+    },
+    {
+        "title": "A Clockwork Orange",
+        "year": 1972,
+        "qualification": 1,
+        "duration": 136,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0066921/",
+        "actors": [
+            {
+                "name": "Malcolm McDowell"
+            },
+            {
+                "name": "Patrick Magee"
+            },
+            {
+                "name": "Michael Bates"
+            }
+        ]
+    },
+    {
+        "title": "Indiana Jones and the Last Crusade",
+        "year": 1989,
+        "qualification": 1,
+        "duration": 127,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0097576/",
+        "actors": [
+            {
+                "name": "Harrison Ford"
+            },
+            {
+                "name": "Sean Connery"
+            },
+            {
+                "name": "Alison Doody"
+            }
+        ]
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "year": 1963,
+        "qualification": 1,
+        "duration": 129,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0056592/",
+        "actors": [
+            {
+                "name": "Gregory Peck"
+            },
+            {
+                "name": "John Megna"
+            },
+            {
+                "name": "Frank Overton"
+            }
+        ]
+    },
+    {
+        "title": "Hababam Sinifi: Sinifta Kaldi",
+        "year": 1970,
+        "qualification": 1,
+        "duration": 95,
+        "metascore": 8.7,
+        "url": "https://www.imdb.com/title/tt0252488/",
+        "actors": [
+            {
+                "name": "Münir Özkul"
+            },
+            {
+                "name": "Tarik Akan"
+            },
+            {
+                "name": "Kemal Sunal"
+            }
+        ]
+    },
+    {
+        "title": "L.A. Confidential",
+        "year": 1997,
+        "qualification": "N/A",
+        "duration": 138,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0119488/",
+        "actors": [
+            {
+                "name": "Kevin Spacey"
+            },
+            {
+                "name": "Russell Crowe"
+            },
+            {
+                "name": "Guy Pearce"
+            }
+        ]
+    },
+    {
+        "title": "Ladri di biciclette",
+        "year": 1949,
+        "qualification": 1,
+        "duration": 89,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0040522/",
+        "actors": [
+            {
+                "name": "Lamberto Maggiorani"
+            },
+            {
+                "name": "Enzo Staiola"
+            },
+            {
+                "name": "Lianella Carell"
+            }
+        ]
+    },
+    {
+        "title": "Hamilton",
+        "year": 2020,
+        "qualification": "N/A",
+        "duration": 160,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt8503618/",
+        "actors": [
+            {
+                "name": "Lin-Manuel Miranda"
+            },
+            {
+                "name": "Phillipa Soo"
+            },
+            {
+                "name": "Leslie Odom Jr."
+            }
+        ]
+    },
+    {
+        "title": "Metropolis",
+        "year": 1927,
+        "qualification": "N/A",
+        "duration": 153,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0017136/",
+        "actors": [
+            {
+                "name": "Brigitte Helm"
+            },
+            {
+                "name": "Alfred Abel"
+            },
+            {
+                "name": "Gustav Fröhlich"
+            }
+        ]
+    },
+    {
+        "title": "1917",
+        "year": 2020,
+        "qualification": 1,
+        "duration": 119,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt8579674/",
+        "actors": [
+            {
+                "name": "Dean-Charles Chapman"
+            },
+            {
+                "name": "George MacKay"
+            },
+            {
+                "name": "Daniel Mays"
+            }
+        ]
+    },
+    {
+        "title": "Der Untergang",
+        "year": 2005,
+        "qualification": 1,
+        "duration": 156,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0363163/",
+        "actors": [
+            {
+                "name": "Bruno Ganz"
+            },
+            {
+                "name": "Alexandra Maria Lara"
+            },
+            {
+                "name": "Ulrich Matthes"
+            }
+        ]
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "year": 2013,
+        "qualification": 1,
+        "duration": 180,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0993846/",
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio"
+            },
+            {
+                "name": "Jonah Hill"
+            },
+            {
+                "name": "Margot Robbie"
+            }
+        ]
+    },
+    {
+        "title": "Snatch",
+        "year": 2001,
+        "qualification": 1,
+        "duration": 102,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0208092/",
+        "actors": [
+            {
+                "name": "Jason Statham"
+            },
+            {
+                "name": "Brad Pitt"
+            },
+            {
+                "name": "Stephen Graham"
+            }
+        ]
+    },
+    {
+        "title": "Dangal",
+        "year": 2016,
+        "qualification": 1,
+        "duration": 161,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt5074352/",
+        "actors": [
+            {
+                "name": "Aamir Khan"
+            },
+            {
+                "name": "Sakshi Tanwar"
+            },
+            {
+                "name": "Fatima Sana Shaikh"
+            }
+        ]
+    },
+    {
+        "title": "Oppenheimer",
+        "year": 2023,
+        "qualification": 1,
+        "duration": 180,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt15398776/",
+        "actors": [
+            {
+                "name": "Cillian Murphy"
+            },
+            {
+                "name": "Emily Blunt"
+            },
+            {
+                "name": "Matt Damon"
+            }
+        ]
+    },
+    {
+        "title": "Green Book",
+        "year": 2018,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt6966692/",
+        "actors": [
+            {
+                "name": "Viggo Mortensen"
+            },
+            {
+                "name": "Mahershala Ali"
+            },
+            {
+                "name": "Linda Cardellini"
+            }
+        ]
+    },
+    {
+        "title": "The Truman Show",
+        "year": 1998,
+        "qualification": 1,
+        "duration": 103,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0120382/",
+        "actors": [
+            {
+                "name": "Jim Carrey"
+            },
+            {
+                "name": "Ed Harris"
+            },
+            {
+                "name": "Laura Linney"
+            }
+        ]
+    },
+    {
+        "title": "Shutter Island",
+        "year": 2010,
+        "qualification": 1,
+        "duration": 138,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt1130884/",
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio"
+            },
+            {
+                "name": "Emily Mortimer"
+            },
+            {
+                "name": "Mark Ruffalo"
+            }
+        ]
+    },
+    {
+        "title": "Per qualche dollaro in più",
+        "year": 1967,
+        "qualification": 1,
+        "duration": 132,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0059578/",
+        "actors": [
+            {
+                "name": "Clint Eastwood"
+            },
+            {
+                "name": "Lee Van Cleef"
+            },
+            {
+                "name": "Gian Maria Volontè"
+            }
+        ]
+    },
+    {
+        "title": "Taxi Driver",
+        "year": 1976,
+        "qualification": 1,
+        "duration": 114,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0075314/",
+        "actors": [
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Jodie Foster"
+            },
+            {
+                "name": "Cybill Shepherd"
+            }
+        ]
+    },
+    {
+        "title": "Judgment at Nuremberg",
+        "year": 1961,
+        "qualification": 1,
+        "duration": 179,
+        "metascore": 8.3,
+        "url": "https://www.imdb.com/title/tt0055031/",
+        "actors": [
+            {
+                "name": "Spencer Tracy"
+            },
+            {
+                "name": "Burt Lancaster"
+            },
+            {
+                "name": "Richard Widmark"
+            }
+        ]
+    },
+    {
+        "title": "Some Like It Hot",
+        "year": 1959,
+        "qualification": 1,
+        "duration": 121,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0053291/",
+        "actors": [
+            {
+                "name": "Marilyn Monroe"
+            },
+            {
+                "name": "Tony Curtis"
+            },
+            {
+                "name": "Jack Lemmon"
+            }
+        ]
+    },
+    {
+        "title": "Batman Begins",
+        "year": 2005,
+        "qualification": 1,
+        "duration": 140,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0372784/",
+        "actors": [
+            {
+                "name": "Christian Bale"
+            },
+            {
+                "name": "Michael Caine"
+            },
+            {
+                "name": "Ken Watanabe"
+            }
+        ]
+    },
+    {
+        "title": "The Kid",
+        "year": 1921,
+        "qualification": "N/A",
+        "duration": 68,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0012349/",
+        "actors": [
+            {
+                "name": "Charles Chaplin"
+            },
+            {
+                "name": "Edna Purviance"
+            },
+            {
+                "name": "Jackie Coogan"
+            }
+        ]
+    },
+    {
+        "title": "Jurassic Park",
+        "year": 1993,
+        "qualification": "N/A",
+        "duration": 127,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0107290/",
+        "actors": [
+            {
+                "name": "Sam Neill"
+            },
+            {
+                "name": "Laura Dern"
+            },
+            {
+                "name": "Jeff Goldblum"
+            }
+        ]
+    },
+    {
+        "title": "The Father",
+        "year": 2021,
+        "qualification": 1,
+        "duration": 97,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt10272386/",
+        "actors": [
+            {
+                "name": "Anthony Hopkins"
+            },
+            {
+                "name": "Olivia Colman"
+            },
+            {
+                "name": "Mark Gatiss"
+            }
+        ]
+    },
+    {
+        "title": "Ran",
+        "year": 1985,
+        "qualification": "N/A",
+        "duration": 160,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0089881/",
+        "actors": [
+            {
+                "name": "Tatsuya Nakadai"
+            },
+            {
+                "name": "Akira Terao"
+            },
+            {
+                "name": "Jinpachi Nezu"
+            }
+        ]
+    },
+    {
+        "title": "All About Eve",
+        "year": 1950,
+        "qualification": 1,
+        "duration": 138,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0042192/",
+        "actors": [
+            {
+                "name": "Bette Davis"
+            },
+            {
+                "name": "Anne Baxter"
+            },
+            {
+                "name": "George Sanders"
+            }
+        ]
+    },
+    {
+        "title": "There Will Be Blood",
+        "year": 2008,
+        "qualification": 1,
+        "duration": 158,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0469494/",
+        "actors": [
+            {
+                "name": "Daniel Day-Lewis"
+            },
+            {
+                "name": "Paul Dano"
+            },
+            {
+                "name": "Ciarán Hinds"
+            }
+        ]
+    },
+    {
+        "title": "Casino",
+        "year": 1995,
+        "qualification": 1,
+        "duration": 178,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0112641/",
+        "actors": [
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Sharon Stone"
+            },
+            {
+                "name": "Joe Pesci"
+            }
+        ]
+    },
+    {
+        "title": "No Country for Old Men",
+        "year": 2007,
+        "qualification": 1,
+        "duration": 122,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0477348/",
+        "actors": [
+            {
+                "name": "Tommy Lee Jones"
+            },
+            {
+                "name": "Javier Bardem"
+            },
+            {
+                "name": "Josh Brolin"
+            }
+        ]
+    },
+    {
+        "title": "The Thing",
+        "year": 1982,
+        "qualification": 1,
+        "duration": 109,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0084787/",
+        "actors": [
+            {
+                "name": "Kurt Russell"
+            },
+            {
+                "name": "Wilford Brimley"
+            },
+            {
+                "name": "Keith David"
+            }
+        ]
+    },
+    {
+        "title": "Top Gun: Maverick",
+        "year": 2022,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt1745960/",
+        "actors": [
+            {
+                "name": "Tom Cruise"
+            },
+            {
+                "name": "Jennifer Connelly"
+            },
+            {
+                "name": "Miles Teller"
+            }
+        ]
+    },
+    {
+        "title": "The Sixth Sense",
+        "year": 1999,
+        "qualification": 1,
+        "duration": 107,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0167404/",
+        "actors": [
+            {
+                "name": "Bruce Willis"
+            },
+            {
+                "name": "Haley Joel Osment"
+            },
+            {
+                "name": "Toni Collette"
+            }
+        ]
+    },
+    {
+        "title": "Unforgiven",
+        "year": 1992,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0105695/",
+        "actors": [
+            {
+                "name": "Clint Eastwood"
+            },
+            {
+                "name": "Gene Hackman"
+            },
+            {
+                "name": "Morgan Freeman"
+            }
+        ]
+    },
+    {
+        "title": "El laberinto del fauno",
+        "year": 2007,
+        "qualification": 1,
+        "duration": 118,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0457430/",
+        "actors": [
+            {
+                "name": "Ivana Baquero"
+            },
+            {
+                "name": "Ariadna Gil"
+            },
+            {
+                "name": "Sergi López"
+            }
+        ]
+    },
+    {
+        "title": "Kill Bill: Vol. 1",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 111,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0266697/",
+        "actors": [
+            {
+                "name": "Uma Thurman"
+            },
+            {
+                "name": "David Carradine"
+            },
+            {
+                "name": "Daryl Hannah"
+            }
+        ]
+    },
+    {
+        "title": "Prisoners",
+        "year": 2013,
+        "qualification": "N/A",
+        "duration": 153,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt1392214/",
+        "actors": [
+            {
+                "name": "Hugh Jackman"
+            },
+            {
+                "name": "Jake Gyllenhaal"
+            },
+            {
+                "name": "Viola Davis"
+            }
+        ]
+    },
+    {
+        "title": "Finding Nemo",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 100,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0266543/",
+        "actors": [
+            {
+                "name": "Albert Brooks"
+            },
+            {
+                "name": "Ellen DeGeneres"
+            },
+            {
+                "name": "Alexander Gould"
+            }
+        ]
+    },
+    {
+        "title": "The Treasure of the Sierra Madre",
+        "year": 1948,
+        "qualification": "N/A",
+        "duration": 126,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0040897/",
+        "actors": [
+            {
+                "name": "Humphrey Bogart"
+            },
+            {
+                "name": "Walter Huston"
+            },
+            {
+                "name": "Tim Holt"
+            }
+        ]
+    },
+    {
+        "title": "Hauru no ugoku shiro",
+        "year": 2005,
+        "qualification": 1,
+        "duration": 119,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0347149/",
+        "actors": [
+            {
+                "name": "Chieko Baishô"
+            },
+            {
+                "name": "Takuya Kimura"
+            },
+            {
+                "name": "Tatsuya Gashûin"
+            }
+        ]
+    },
+    {
+        "title": "Yôjinbô",
+        "year": 1961,
+        "qualification": 1,
+        "duration": 110,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0055630/",
+        "actors": [
+            {
+                "name": "Toshirô Mifune"
+            },
+            {
+                "name": "Eijirô Tôno"
+            },
+            {
+                "name": "Tatsuya Nakadai"
+            }
+        ]
+    },
+    {
+        "title": "La meglio gioventù",
+        "year": 2003,
+        "qualification": "N/A",
+        "duration": 374,
+        "metascore": 8.5,
+        "url": "https://www.imdb.com/title/tt0346336/",
+        "actors": [
+            {
+                "name": "Luigi Lo Cascio"
+            },
+            {
+                "name": "Alessio Boni"
+            },
+            {
+                "name": "Jasmine Trinca"
+            }
+        ]
+    },
+    {
+        "title": "The Great Escape",
+        "year": 1963,
+        "qualification": 1,
+        "duration": 172,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0057115/",
+        "actors": [
+            {
+                "name": "Steve McQueen"
+            },
+            {
+                "name": "James Garner"
+            },
+            {
+                "name": "Richard Attenborough"
+            }
+        ]
+    },
+    {
+        "title": "Monty Python and the Holy Grail",
+        "year": 1975,
+        "qualification": 1,
+        "duration": 91,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0071853/",
+        "actors": [
+            {
+                "name": "Graham Chapman"
+            },
+            {
+                "name": "John Cleese"
+            },
+            {
+                "name": "Eric Idle"
+            }
+        ]
+    },
+    {
+        "title": "Gone with the Wind",
+        "year": 1940,
+        "qualification": 1,
+        "duration": 238,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0031381/",
+        "actors": [
+            {
+                "name": "Clark Gable"
+            },
+            {
+                "name": "Vivien Leigh"
+            },
+            {
+                "name": "Thomas Mitchell"
+            }
+        ]
+    },
+    {
+        "title": "Dial M for Murder",
+        "year": 1954,
+        "qualification": 1,
+        "duration": 105,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0046912/",
+        "actors": [
+            {
+                "name": "Ray Milland"
+            },
+            {
+                "name": "Grace Kelly"
+            },
+            {
+                "name": "Robert Cummings"
+            }
+        ]
+    },
+    {
+        "title": "The Elephant Man",
+        "year": 1980,
+        "qualification": "N/A",
+        "duration": 124,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0080678/",
+        "actors": [
+            {
+                "name": "Anthony Hopkins"
+            },
+            {
+                "name": "John Hurt"
+            },
+            {
+                "name": "Anne Bancroft"
+            }
+        ]
+    },
+    {
+        "title": "El secreto de sus ojos",
+        "year": 2010,
+        "qualification": 1,
+        "duration": 129,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt1305806/",
+        "actors": [
+            {
+                "name": "Ricardo Darín"
+            },
+            {
+                "name": "Soledad Villamil"
+            },
+            {
+                "name": "Pablo Rago"
+            }
+        ]
+    },
+    {
+        "title": "Chinatown",
+        "year": 1974,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0071315/",
+        "actors": [
+            {
+                "name": "Jack Nicholson"
+            },
+            {
+                "name": "Faye Dunaway"
+            },
+            {
+                "name": "John Huston"
+            }
+        ]
+    },
+    {
+        "title": "A Beautiful Mind",
+        "year": 2002,
+        "qualification": 1,
+        "duration": 135,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0268978/",
+        "actors": [
+            {
+                "name": "Russell Crowe"
+            },
+            {
+                "name": "Ed Harris"
+            },
+            {
+                "name": "Jennifer Connelly"
+            }
+        ]
+    },
+    {
+        "title": "Klaus",
+        "year": 2019,
+        "qualification": 1,
+        "duration": 96,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt4729430/",
+        "actors": [
+            {
+                "name": "Jason Schwartzman"
+            },
+            {
+                "name": "J.K. Simmons"
+            },
+            {
+                "name": "Rashida Jones"
+            }
+        ]
+    },
+    {
+        "title": "Lock, Stock and Two Smoking Barrels",
+        "year": 1998,
+        "qualification": 1,
+        "duration": 107,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0120735/",
+        "actors": [
+            {
+                "name": "Jason Flemyng"
+            },
+            {
+                "name": "Dexter Fletcher"
+            },
+            {
+                "name": "Nick Moran"
+            }
+        ]
+    },
+    {
+        "title": "Rashômon",
+        "year": 1951,
+        "qualification": 1,
+        "duration": 88,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0042876/",
+        "actors": [
+            {
+                "name": "Toshirô Mifune"
+            },
+            {
+                "name": "Machiko Kyô"
+            },
+            {
+                "name": "Masayuki Mori"
+            }
+        ]
+    },
+    {
+        "title": "The Bridge on the River Kwai",
+        "year": 1957,
+        "qualification": 1,
+        "duration": 161,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0050212/",
+        "actors": [
+            {
+                "name": "William Holden"
+            },
+            {
+                "name": "Alec Guinness"
+            },
+            {
+                "name": "Jack Hawkins"
+            }
+        ]
+    },
+    {
+        "title": "Inside Out",
+        "year": 2015,
+        "qualification": 1,
+        "duration": 95,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt2096673/",
+        "actors": [
+            {
+                "name": "Amy Poehler"
+            },
+            {
+                "name": "Bill Hader"
+            },
+            {
+                "name": "Lewis Black"
+            }
+        ]
+    },
+    {
+        "title": "Three Billboards Outside Ebbing, Missouri",
+        "year": 2017,
+        "qualification": 1,
+        "duration": 115,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt5027774/",
+        "actors": [
+            {
+                "name": "Frances McDormand"
+            },
+            {
+                "name": "Woody Harrelson"
+            },
+            {
+                "name": "Sam Rockwell"
+            }
+        ]
+    },
+    {
+        "title": "The Wild Robot",
+        "year": 2024,
+        "qualification": 1,
+        "duration": 102,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt29623480/",
+        "actors": [
+            {
+                "name": "Lupita Nyong&apos;o"
+            },
+            {
+                "name": "Pedro Pascal"
+            },
+            {
+                "name": "Kit Connor"
+            }
+        ]
+    },
+    {
+        "title": "Catch Me If You Can",
+        "year": 2002,
+        "qualification": "N/A",
+        "duration": 141,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0264464/",
+        "actors": [
+            {
+                "name": "Leonardo DiCaprio"
+            },
+            {
+                "name": "Tom Hanks"
+            },
+            {
+                "name": "Christopher Walken"
+            }
+        ]
+    },
+    {
+        "title": "V for Vendetta",
+        "year": 2006,
+        "qualification": 1,
+        "duration": 132,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0434409/",
+        "actors": [
+            {
+                "name": "Hugo Weaving"
+            },
+            {
+                "name": "Natalie Portman"
+            },
+            {
+                "name": "Rupert Graves"
+            }
+        ]
+    },
+    {
+        "title": "Raging Bull",
+        "year": 1980,
+        "qualification": "N/A",
+        "duration": 129,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0081398/",
+        "actors": [
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Cathy Moriarty"
+            },
+            {
+                "name": "Joe Pesci"
+            }
+        ]
+    },
+    {
+        "title": "Trainspotting",
+        "year": 1996,
+        "qualification": "N/A",
+        "duration": 93,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0117951/",
+        "actors": [
+            {
+                "name": "Ewan McGregor"
+            },
+            {
+                "name": "Ewen Bremner"
+            },
+            {
+                "name": "Jonny Lee Miller"
+            }
+        ]
+    },
+    {
+        "title": "Fargo",
+        "year": 1996,
+        "qualification": 1,
+        "duration": 98,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0116282/",
+        "actors": [
+            {
+                "name": "William H. Macy"
+            },
+            {
+                "name": "Frances McDormand"
+            },
+            {
+                "name": "Steve Buscemi"
+            }
+        ]
+    },
+    {
+        "title": "Warrior",
+        "year": 2011,
+        "qualification": 1,
+        "duration": 140,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1291584/",
+        "actors": [
+            {
+                "name": "Tom Hardy"
+            },
+            {
+                "name": "Nick Nolte"
+            },
+            {
+                "name": "Joel Edgerton"
+            }
+        ]
+    },
+    {
+        "title": "Gran Torino",
+        "year": 2009,
+        "qualification": 1,
+        "duration": 116,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1205489/",
+        "actors": [
+            {
+                "name": "Clint Eastwood"
+            },
+            {
+                "name": "Bee Vang"
+            },
+            {
+                "name": "Christopher Carley"
+            }
+        ]
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows: Part 2",
+        "year": 2011,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1201607/",
+        "actors": [
+            {
+                "name": "Daniel Radcliffe"
+            },
+            {
+                "name": "Emma Watson"
+            },
+            {
+                "name": "Rupert Grint"
+            }
+        ]
+    },
+    {
+        "title": "Million Dollar Baby",
+        "year": 2005,
+        "qualification": "N/A",
+        "duration": 132,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0405159/",
+        "actors": [
+            {
+                "name": "Hilary Swank"
+            },
+            {
+                "name": "Clint Eastwood"
+            },
+            {
+                "name": "Morgan Freeman"
+            }
+        ]
+    },
+    {
+        "title": "Tonari no Totoro",
+        "year": 1990,
+        "qualification": 1,
+        "duration": 86,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0096283/",
+        "actors": [
+            {
+                "name": "Hitoshi Takagi"
+            },
+            {
+                "name": "Noriko Hidaka"
+            },
+            {
+                "name": "Chika Sakamoto"
+            }
+        ]
+    },
+    {
+        "title": "Mad Max: Fury Road",
+        "year": 2015,
+        "qualification": 1,
+        "duration": 120,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1392190/",
+        "actors": [
+            {
+                "name": "Tom Hardy"
+            },
+            {
+                "name": "Charlize Theron"
+            },
+            {
+                "name": "Nicholas Hoult"
+            }
+        ]
+    },
+    {
+        "title": "Bacheha-ye aseman",
+        "year": 1999,
+        "qualification": 1,
+        "duration": 89,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0118849/",
+        "actors": [
+            {
+                "name": "Reza Naji"
+            },
+            {
+                "name": "Amir Farrokh Hashemian"
+            },
+            {
+                "name": "Bahare Seddiqi"
+            }
+        ]
+    },
+    {
+        "title": "Ben-Hur",
+        "year": 1959,
+        "qualification": 1,
+        "duration": 212,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0052618/",
+        "actors": [
+            {
+                "name": "Charlton Heston"
+            },
+            {
+                "name": "Jack Hawkins"
+            },
+            {
+                "name": "Stephen Boyd"
+            }
+        ]
+    },
+    {
+        "title": "Dead Poets Society",
+        "year": 1989,
+        "qualification": 1,
+        "duration": 128,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0097165/",
+        "actors": [
+            {
+                "name": "Robin Williams"
+            },
+            {
+                "name": "Robert Sean Leonard"
+            },
+            {
+                "name": "Ethan Hawke"
+            }
+        ]
+    },
+    {
+        "title": "Barry Lyndon",
+        "year": 1975,
+        "qualification": "N/A",
+        "duration": 185,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0072684/",
+        "actors": [
+            {
+                "name": "Ryan O&apos;Neal"
+            },
+            {
+                "name": "Marisa Berenson"
+            },
+            {
+                "name": "Patrick Magee"
+            }
+        ]
+    },
+    {
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "qualification": 1,
+        "duration": 148,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt10872600/",
+        "actors": [
+            {
+                "name": "Tom Holland"
+            },
+            {
+                "name": "Zendaya"
+            },
+            {
+                "name": "Benedict Cumberbatch"
+            }
+        ]
+    },
+    {
+        "title": "Hacksaw Ridge",
+        "year": 2016,
+        "qualification": 1,
+        "duration": 139,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt2119532/",
+        "actors": [
+            {
+                "name": "Andrew Garfield"
+            },
+            {
+                "name": "Sam Worthington"
+            },
+            {
+                "name": "Luke Bracey"
+            }
+        ]
+    },
+    {
+        "title": "12 Years a Slave",
+        "year": 2013,
+        "qualification": 1,
+        "duration": 134,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt2024544/",
+        "actors": [
+            {
+                "name": "Chiwetel Ejiofor"
+            },
+            {
+                "name": "Michael Kenneth Williams"
+            },
+            {
+                "name": "Michael Fassbender"
+            }
+        ]
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "year": 2014,
+        "qualification": 1,
+        "duration": 99,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt2278388/",
+        "actors": [
+            {
+                "name": "Ralph Fiennes"
+            },
+            {
+                "name": "F. Murray Abraham"
+            },
+            {
+                "name": "Mathieu Amalric"
+            }
+        ]
+    },
+    {
+        "title": "Before Sunrise",
+        "year": 1995,
+        "qualification": 1,
+        "duration": 101,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0112471/",
+        "actors": [
+            {
+                "name": "Ethan Hawke"
+            },
+            {
+                "name": "Julie Delpy"
+            },
+            {
+                "name": "Andrea Eckert"
+            }
+        ]
+    },
+    {
+        "title": "How to Train Your Dragon",
+        "year": 2010,
+        "qualification": 1,
+        "duration": 98,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0892769/",
+        "actors": [
+            {
+                "name": "Jay Baruchel"
+            },
+            {
+                "name": "Gerard Butler"
+            },
+            {
+                "name": "Christopher Mintz-Plasse"
+            }
+        ]
+    },
+    {
+        "title": "Ratatouille",
+        "year": 2007,
+        "qualification": 1,
+        "duration": 111,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0382932/",
+        "actors": [
+            {
+                "name": "Brad Garrett"
+            },
+            {
+                "name": "Lou Romano"
+            },
+            {
+                "name": "Patton Oswalt"
+            }
+        ]
+    },
+    {
+        "title": "Blade Runner",
+        "year": 1982,
+        "qualification": "N/A",
+        "duration": 117,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0083658/",
+        "actors": [
+            {
+                "name": "Harrison Ford"
+            },
+            {
+                "name": "Rutger Hauer"
+            },
+            {
+                "name": "Sean Young"
+            }
+        ]
+    },
+    {
+        "title": "Gone Girl",
+        "year": 2014,
+        "qualification": 1,
+        "duration": 149,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt2267998/",
+        "actors": [
+            {
+                "name": "Ben Affleck"
+            },
+            {
+                "name": "Rosamund Pike"
+            },
+            {
+                "name": "Neil Patrick Harris"
+            }
+        ]
+    },
+    {
+        "title": "Salinui chueok",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 132,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0353969/",
+        "actors": [
+            {
+                "name": "Song Kang-ho"
+            },
+            {
+                "name": "Kim Sang-kyung"
+            },
+            {
+                "name": "Kim Roe-ha"
+            }
+        ]
+    },
+    {
+        "title": "Mary and Max.",
+        "year": 2009,
+        "qualification": 1,
+        "duration": 92,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0978762/",
+        "actors": [
+            {
+                "name": "Toni Collette"
+            },
+            {
+                "name": "Philip Seymour Hoffman"
+            },
+            {
+                "name": "Eric Bana"
+            }
+        ]
+    },
+    {
+        "title": "The Gold Rush",
+        "year": 1925,
+        "qualification": "N/A",
+        "duration": 95,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0015864/",
+        "actors": [
+            {
+                "name": "Charles Chaplin"
+            },
+            {
+                "name": "Mack Swain"
+            },
+            {
+                "name": "Tom Murray"
+            }
+        ]
+    },
+    {
+        "title": "Jaws",
+        "year": 1975,
+        "qualification": 1,
+        "duration": 124,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0073195/",
+        "actors": [
+            {
+                "name": "Roy Scheider"
+            },
+            {
+                "name": "Robert Shaw"
+            },
+            {
+                "name": "Richard Dreyfuss"
+            }
+        ]
+    },
+    {
+        "title": "Monsters, Inc.",
+        "year": 2001,
+        "qualification": "N/A",
+        "duration": 92,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0198781/",
+        "actors": [
+            {
+                "name": "Billy Crystal"
+            },
+            {
+                "name": "John Goodman"
+            },
+            {
+                "name": "Mary Gibbs"
+            }
+        ]
+    },
+    {
+        "title": "Relatos salvajes",
+        "year": 2014,
+        "qualification": 1,
+        "duration": 122,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt3011894/",
+        "actors": [
+            {
+                "name": "Darío Grandinetti"
+            },
+            {
+                "name": "María Marull"
+            },
+            {
+                "name": "Mónica Villa"
+            }
+        ]
+    },
+    {
+        "title": "Sherlock Jr.",
+        "year": 1924,
+        "qualification": 1,
+        "duration": 45,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0015324/",
+        "actors": [
+            {
+                "name": "Buster Keaton"
+            },
+            {
+                "name": "Kathryn McGuire"
+            },
+            {
+                "name": "Joe Keaton"
+            }
+        ]
+    },
+    {
+        "title": "In the Name of the Father",
+        "year": 1994,
+        "qualification": 1,
+        "duration": 133,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0107207/",
+        "actors": [
+            {
+                "name": "Daniel Day-Lewis"
+            },
+            {
+                "name": "Pete Postlethwaite"
+            },
+            {
+                "name": "Alison Crosbie"
+            }
+        ]
+    },
+    {
+        "title": "Ford v Ferrari",
+        "year": 2019,
+        "qualification": 1,
+        "duration": 152,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1950186/",
+        "actors": [
+            {
+                "name": "Matt Damon"
+            },
+            {
+                "name": "Christian Bale"
+            },
+            {
+                "name": "Jon Bernthal"
+            }
+        ]
+    },
+    {
+        "title": "The Deer Hunter",
+        "year": 1979,
+        "qualification": 1,
+        "duration": 183,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0077416/",
+        "actors": [
+            {
+                "name": "Robert De Niro"
+            },
+            {
+                "name": "Christopher Walken"
+            },
+            {
+                "name": "John Cazale"
+            }
+        ]
+    },
+    {
+        "title": "Le salaire de la peur",
+        "year": 1955,
+        "qualification": 1,
+        "duration": 156,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0046268/",
+        "actors": [
+            {
+                "name": "Yves Montand"
+            },
+            {
+                "name": "Charles Vanel"
+            },
+            {
+                "name": "Peter van Eyck"
+            }
+        ]
+    },
+    {
+        "title": "The General",
+        "year": 1927,
+        "qualification": 1,
+        "duration": 78,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0017925/",
+        "actors": [
+            {
+                "name": "Buster Keaton"
+            },
+            {
+                "name": "Marion Mack"
+            },
+            {
+                "name": "Glen Cavender"
+            }
+        ]
+    },
+    {
+        "title": "Rocky",
+        "year": 1976,
+        "qualification": 1,
+        "duration": 120,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0075148/",
+        "actors": [
+            {
+                "name": "Sylvester Stallone"
+            },
+            {
+                "name": "Talia Shire"
+            },
+            {
+                "name": "Burt Young"
+            }
+        ]
+    },
+    {
+        "title": "Mr. Smith Goes to Washington",
+        "year": 1939,
+        "qualification": 1,
+        "duration": 129,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0031679/",
+        "actors": [
+            {
+                "name": "James Stewart"
+            },
+            {
+                "name": "Jean Arthur"
+            },
+            {
+                "name": "Claude Rains"
+            }
+        ]
+    },
+    {
+        "title": "Logan",
+        "year": 2017,
+        "qualification": 1,
+        "duration": 137,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt3315342/",
+        "actors": [
+            {
+                "name": "Hugh Jackman"
+            },
+            {
+                "name": "Patrick Stewart"
+            },
+            {
+                "name": "Dafne Keen"
+            }
+        ]
+    },
+    {
+        "title": "On the Waterfront",
+        "year": 1954,
+        "qualification": 1,
+        "duration": 108,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0047296/",
+        "actors": [
+            {
+                "name": "Marlon Brando"
+            },
+            {
+                "name": "Karl Malden"
+            },
+            {
+                "name": "Lee J. Cobb"
+            }
+        ]
+    },
+    {
+        "title": "Spotlight",
+        "year": 2015,
+        "qualification": 1,
+        "duration": 129,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1895587/",
+        "actors": [
+            {
+                "name": "Mark Ruffalo"
+            },
+            {
+                "name": "Michael Keaton"
+            },
+            {
+                "name": "Rachel McAdams"
+            }
+        ]
+    },
+    {
+        "title": "Tôkyô monogatari",
+        "year": 1972,
+        "qualification": 1,
+        "duration": 137,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0046438/",
+        "actors": [
+            {
+                "name": "Chishû Ryû"
+            },
+            {
+                "name": "Chieko Higashiyama"
+            },
+            {
+                "name": "Sô Yamamura"
+            }
+        ]
+    },
+    {
+        "title": "Smultronstället",
+        "year": 1959,
+        "qualification": 1,
+        "duration": 92,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0050986/",
+        "actors": [
+            {
+                "name": "Victor Sjöström"
+            },
+            {
+                "name": "Bibi Andersson"
+            },
+            {
+                "name": "Ingrid Thulin"
+            }
+        ]
+    },
+    {
+        "title": "The Terminator",
+        "year": 1984,
+        "qualification": 1,
+        "duration": 107,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0088247/",
+        "actors": [
+            {
+                "name": "Arnold Schwarzenegger"
+            },
+            {
+                "name": "Linda Hamilton"
+            },
+            {
+                "name": "Michael Biehn"
+            }
+        ]
+    },
+    {
+        "title": "The Big Lebowski",
+        "year": 1998,
+        "qualification": 1,
+        "duration": 117,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0118715/",
+        "actors": [
+            {
+                "name": "Jeff Bridges"
+            },
+            {
+                "name": "John Goodman"
+            },
+            {
+                "name": "Julianne Moore"
+            }
+        ]
+    },
+    {
+        "title": "Maharaja",
+        "year": 2024,
+        "qualification": 1,
+        "duration": 141,
+        "metascore": 8.4,
+        "url": "https://www.imdb.com/title/tt26548265/",
+        "actors": [
+            {
+                "name": "Vijay Sethupathi"
+            },
+            {
+                "name": "Anurag Kashyap"
+            },
+            {
+                "name": "Mamta Mohandas"
+            }
+        ]
+    },
+    {
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "year": 2003,
+        "qualification": 1,
+        "duration": 143,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0325980/",
+        "actors": [
+            {
+                "name": "Johnny Depp"
+            },
+            {
+                "name": "Geoffrey Rush"
+            },
+            {
+                "name": "Orlando Bloom"
+            }
+        ]
+    },
+    {
+        "title": "The Third Man",
+        "year": 1950,
+        "qualification": "N/A",
+        "duration": 104,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0041959/",
+        "actors": [
+            {
+                "name": "Orson Welles"
+            },
+            {
+                "name": "Joseph Cotten"
+            },
+            {
+                "name": "Alida Valli"
+            }
+        ]
+    },
+    {
+        "title": "La haine",
+        "year": 1996,
+        "qualification": 1,
+        "duration": 98,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0113247/",
+        "actors": [
+            {
+                "name": "Vincent Cassel"
+            },
+            {
+                "name": "Hubert Koundé"
+            },
+            {
+                "name": "Saïd Taghmaoui"
+            }
+        ]
+    },
+    {
+        "title": "Det sjunde inseglet",
+        "year": 1958,
+        "qualification": 1,
+        "duration": 96,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0050976/",
+        "actors": [
+            {
+                "name": "Max von Sydow"
+            },
+            {
+                "name": "Gunnar Björnstrand"
+            },
+            {
+                "name": "Bengt Ekerot"
+            }
+        ]
+    },
+    {
+        "title": "Room",
+        "year": 2016,
+        "qualification": 1,
+        "duration": 118,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt3170832/",
+        "actors": [
+            {
+                "name": "Brie Larson"
+            },
+            {
+                "name": "Jacob Tremblay"
+            },
+            {
+                "name": "Sean Bridgers"
+            }
+        ]
+    },
+    {
+        "title": "Before Sunset",
+        "year": 2004,
+        "qualification": 1,
+        "duration": 80,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0381681/",
+        "actors": [
+            {
+                "name": "Ethan Hawke"
+            },
+            {
+                "name": "Julie Delpy"
+            },
+            {
+                "name": "Vernon Dobtcheff"
+            }
+        ]
+    },
+    {
+        "title": "Hotel Rwanda",
+        "year": 2005,
+        "qualification": 1,
+        "duration": 121,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0395169/",
+        "actors": [
+            {
+                "name": "Don Cheadle"
+            },
+            {
+                "name": "Sophie Okonedo"
+            },
+            {
+                "name": "Joaquin Phoenix"
+            }
+        ]
+    },
+    {
+        "title": "The Incredibles",
+        "year": 2004,
+        "qualification": "N/A",
+        "duration": 115,
+        "metascore": 8.0,
+        "url": "https://www.imdb.com/title/tt0317705/",
+        "actors": [
+            {
+                "name": "Craig T. Nelson"
+            },
+            {
+                "name": "Samuel L. Jackson"
+            },
+            {
+                "name": "Holly Hunter"
+            }
+        ]
+    },
+    {
+        "title": "The Best Years of Our Lives",
+        "year": 1947,
+        "qualification": 1,
+        "duration": 170,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0036868/",
+        "actors": [
+            {
+                "name": "Myrna Loy"
+            },
+            {
+                "name": "Dana Andrews"
+            },
+            {
+                "name": "Fredric March"
+            }
+        ]
+    },
+    {
+        "title": "The Exorcist",
+        "year": 1973,
+        "qualification": 1,
+        "duration": 122,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0070047/",
+        "actors": [
+            {
+                "name": "Ellen Burstyn"
+            },
+            {
+                "name": "Max von Sydow"
+            },
+            {
+                "name": "Linda Blair"
+            }
+        ]
+    },
+    {
+        "title": "Platoon",
+        "year": 1987,
+        "qualification": 1,
+        "duration": 120,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0091763/",
+        "actors": [
+            {
+                "name": "Charlie Sheen"
+            },
+            {
+                "name": "Tom Berenger"
+            },
+            {
+                "name": "Willem Dafoe"
+            }
+        ]
+    },
+    {
+        "title": "The Sound of Music",
+        "year": 1965,
+        "qualification": "N/A",
+        "duration": 172,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0059742/",
+        "actors": [
+            {
+                "name": "Julie Andrews"
+            },
+            {
+                "name": "Christopher Plummer"
+            },
+            {
+                "name": "Eleanor Parker"
+            }
+        ]
+    },
+    {
+        "title": "Jai Bhim",
+        "year": 2021,
+        "qualification": 1,
+        "duration": 164,
+        "metascore": 8.6,
+        "url": "https://www.imdb.com/title/tt15097216/",
+        "actors": [
+            {
+                "name": "Suriya"
+            },
+            {
+                "name": "Lijo Mol Jose"
+            },
+            {
+                "name": "Manikandan K."
+            }
+        ]
+    },
+    {
+        "title": "Hachi: A Dog&apos;s Tale",
+        "year": 2010,
+        "qualification": 1,
+        "duration": 93,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1028532/",
+        "actors": [
+            {
+                "name": "Richard Gere"
+            },
+            {
+                "name": "Joan Allen"
+            },
+            {
+                "name": "Cary-Hiroyuki Tagawa"
+            }
+        ]
+    },
+    {
+        "title": "La passion de Jeanne d&apos;Arc",
+        "year": 1928,
+        "qualification": "N/A",
+        "duration": 114,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0019254/",
+        "actors": [
+            {
+                "name": "Maria Falconetti"
+            },
+            {
+                "name": "Eugene Silvain"
+            },
+            {
+                "name": "André Berley"
+            }
+        ]
+    },
+    {
+        "title": "Rush",
+        "year": 2013,
+        "qualification": 1,
+        "duration": 123,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1979320/",
+        "actors": [
+            {
+                "name": "Daniel Brühl"
+            },
+            {
+                "name": "Chris Hemsworth"
+            },
+            {
+                "name": "Olivia Wilde"
+            }
+        ]
+    },
+    {
+        "title": "The Wizard of Oz",
+        "year": 1939,
+        "qualification": "N/A",
+        "duration": 102,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0032138/",
+        "actors": [
+            {
+                "name": "Judy Garland"
+            },
+            {
+                "name": "Frank Morgan"
+            },
+            {
+                "name": "Ray Bolger"
+            }
+        ]
+    },
+    {
+        "title": "Koe no katachi",
+        "year": 2016,
+        "qualification": 1,
+        "duration": 130,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt5323662/",
+        "actors": [
+            {
+                "name": "Miyu Irino"
+            },
+            {
+                "name": "Saori Hayami"
+            },
+            {
+                "name": "Aoi Yûki"
+            }
+        ]
+    },
+    {
+        "title": "The Iron Giant",
+        "year": 1999,
+        "qualification": "N/A",
+        "duration": 86,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0129167/",
+        "actors": [
+            {
+                "name": "Eli Marienthal"
+            },
+            {
+                "name": "Harry Connick Jr."
+            },
+            {
+                "name": "Jennifer Aniston"
+            }
+        ]
+    },
+    {
+        "title": "Babam ve Oglum",
+        "year": 2005,
+        "qualification": 1,
+        "duration": 112,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt0476735/",
+        "actors": [
+            {
+                "name": "Çetin Tekindor"
+            },
+            {
+                "name": "Fikret Kuskan"
+            },
+            {
+                "name": "Hümeyra"
+            }
+        ]
+    },
+    {
+        "title": "Stand by Me",
+        "year": 1986,
+        "qualification": 1,
+        "duration": 89,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0092005/",
+        "actors": [
+            {
+                "name": "Wil Wheaton"
+            },
+            {
+                "name": "River Phoenix"
+            },
+            {
+                "name": "Corey Feldman"
+            }
+        ]
+    },
+    {
+        "title": "Network",
+        "year": 1976,
+        "qualification": 1,
+        "duration": 121,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0074958/",
+        "actors": [
+            {
+                "name": "Faye Dunaway"
+            },
+            {
+                "name": "William Holden"
+            },
+            {
+                "name": "Peter Finch"
+            }
+        ]
+    },
+    {
+        "title": "Ah-ga-ssi",
+        "year": 2017,
+        "qualification": 1,
+        "duration": 145,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt4016934/",
+        "actors": [
+            {
+                "name": "Kim Min-hee"
+            },
+            {
+                "name": "Ha Jung-woo"
+            },
+            {
+                "name": "Cho Jin-woong"
+            }
+        ]
+    },
+    {
+        "title": "La battaglia di Algeri",
+        "year": 1967,
+        "qualification": 1,
+        "duration": 121,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0058946/",
+        "actors": [
+            {
+                "name": "Brahim Hadjadj"
+            },
+            {
+                "name": "Jean Martin"
+            },
+            {
+                "name": "Yacef Saadi"
+            }
+        ]
+    },
+    {
+        "title": "To Be or Not to Be",
+        "year": 1942,
+        "qualification": 1,
+        "duration": 99,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0035446/",
+        "actors": [
+            {
+                "name": "Carole Lombard"
+            },
+            {
+                "name": "Jack Benny"
+            },
+            {
+                "name": "Robert Stack"
+            }
+        ]
+    },
+    {
+        "title": "Into the Wild",
+        "year": 2007,
+        "qualification": 1,
+        "duration": 148,
+        "metascore": 8.0,
+        "url": "https://www.imdb.com/title/tt0758758/",
+        "actors": [
+            {
+                "name": "Emile Hirsch"
+            },
+            {
+                "name": "Vince Vaughn"
+            },
+            {
+                "name": "Catherine Keener"
+            }
+        ]
+    },
+    {
+        "title": "Groundhog Day",
+        "year": 1993,
+        "qualification": 1,
+        "duration": 101,
+        "metascore": 8.0,
+        "url": "https://www.imdb.com/title/tt0107048/",
+        "actors": [
+            {
+                "name": "Bill Murray"
+            },
+            {
+                "name": "Andie MacDowell"
+            },
+            {
+                "name": "Chris Elliott"
+            }
+        ]
+    },
+    {
+        "title": "The Grapes of Wrath",
+        "year": 1940,
+        "qualification": "N/A",
+        "duration": 129,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt0032551/",
+        "actors": [
+            {
+                "name": "Henry Fonda"
+            },
+            {
+                "name": "Jane Darwell"
+            },
+            {
+                "name": "John Carradine"
+            }
+        ]
+    },
+    {
+        "title": "The Help",
+        "year": 2011,
+        "qualification": 1,
+        "duration": 146,
+        "metascore": 8.1,
+        "url": "https://www.imdb.com/title/tt1454029/",
+        "actors": [
+            {
+                "name": "Viola Davis"
+            },
+            {
+                "name": "Emma Stone"
+            },
+            {
+                "name": "Octavia Spencer"
+            }
+        ]
+    },
+    {
+        "title": "Gangs of Wasseypur",
+        "year": 2012,
+        "qualification": 1,
+        "duration": 321,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt1954470/",
+        "actors": [
+            {
+                "name": "Manoj Bajpayee"
+            },
+            {
+                "name": "Nawazuddin Siddiqui"
+            },
+            {
+                "name": "Tigmanshu Dhulia"
+            }
+        ]
+    },
+    {
+        "title": "Drishyam",
+        "year": 2015,
+        "qualification": 1,
+        "duration": 163,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt4430212/",
+        "actors": [
+            {
+                "name": "Ajay Devgn"
+            },
+            {
+                "name": "Shriya Saran"
+            },
+            {
+                "name": "Tabu"
+            }
+        ]
+    },
+    {
+        "title": "Gekijô-ban Kimetsu no Yaiba Mugen Ressha-hen",
+        "year": 2021,
+        "qualification": 1,
+        "duration": 117,
+        "metascore": 8.2,
+        "url": "https://www.imdb.com/title/tt11032374/",
+        "actors": [
+            {
+                "name": "Natsuki Hanae"
+            },
+            {
+                "name": "Akari Kitô"
+            },
+            {
+                "name": "Yoshitsugu Matsuoka"
+            }
+        ]
+    }
+]
