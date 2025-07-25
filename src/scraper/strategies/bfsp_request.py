@@ -10,13 +10,10 @@ class BfspRequestScraper(BaseScraper):
 
     def get_movies(self) -> str:
         html_content = self.downloader.get_html(self.url)
-        """
-        Extrae información de las películas del HTML usando BeautifulSoup
-        """
+
         soup = BeautifulSoup(html_content, "html.parser")
         movies = []
 
-        # Buscar todos los elementos de película (li con clase ipc-metadata-list-summary-item)
         movie_items = soup.find_all("li", class_="ipc-metadata-list-summary-item")
 
         for item in movie_items:
