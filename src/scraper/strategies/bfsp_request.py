@@ -71,16 +71,18 @@ class BfspRequestScraper(BaseScraper):
     #             continue
 
     #     return movies
+    def _get_json(self,html):
+        soup = BeautifulSoup(html, "html.parser")
+        script_element = soup.find("script", type="application/ld+json")
+
+        if script_element:
+            return script_element.string
+        return None
 
     def get_movies(self):
         html_content = self.downloader.get_html(self.url)
-        script_element = BeautifulSoup(html_content, "html.parser").find(
-            "script", type="application/ld+json"
-        )
-
-        if script_element:
-            return parse_json_ld(script_element.string)
-        return None
+        return self._get_json(html_content)
     
     def get_detail_movie(self,url):
         html_content = self.downloader.get_html(url)
+        return self._get_json(html_content)
