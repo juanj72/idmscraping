@@ -2,18 +2,19 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
 from contextlib import contextmanager
 from typing import Generator
+from src.config import Config
 
 
 class SessionManager:
-    def __init__(self, config: dict):
-        self.config = config
+    def __init__(self, config: Config):
+        self.config = config.config
         self.database_url = (
-            f"mysql+pymysql://{config['DB_USER']}:{config['DB_PASSWORD']}"
-            f"@{config['DB_HOST']}:{config['DB_PORT']}/{config['DB_NAME']}"
+            f"mysql+pymysql://{self.config['database']['user']}:{self.config['database']['password']}"
+            f"@{self.config['database']['host']}:{self.config['database']['port']}/{self.config['database']['name']}"
         )
         self.engine = create_engine(
             self.database_url,
-            echo=config.get("DB_ECHO", False),
+            echo=self.config['env'] == "development",
             future=True,
         )
         self.SessionLocal = sessionmaker(
