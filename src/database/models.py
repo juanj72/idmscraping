@@ -5,7 +5,7 @@ from src.config import Config
 
 config = Config()
 session = SessionManager(config)
-session_manager = session.get_session()
+# session_manager = session.session_scope()
 Base = session.base
 
 

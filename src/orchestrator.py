@@ -8,14 +8,22 @@ import time
 from threading import Lock
 from dataclasses import asdict
 from src.utils.convert_to_minutes import convert_duration_to_minutes_iso
+from src.database.crud import Crud
 
 
 class BfspRequestScraper:
-    def __init__(self, scraper: BaseScraper, max_workers: int = 3, delay: float = 1.0):
+    def __init__(
+        self,
+        scraper: BaseScraper,
+        crud: Crud,
+        max_workers: int = 3,
+        delay: float = 1.0,
+    ):
         self.scraper = scraper
         self.max_workers = max_workers
         self.delay = delay  # Delay between requests
         self.lock = Lock()  # to thread-safe operations
+        self.crud = crud
 
     def _convert_to_dict(self, movies: List[Movie]) -> List[dict]:
         return [asdict(movie) for movie in movies]
@@ -62,10 +70,46 @@ class BfspRequestScraper:
                     print(f"✗ Error en {url}: {e}")
 
         return self._convert_to_dict(movie_objects)
-    
+
+    def _save_movie(self, movie: Movie) -> dict:
+        try:
+            movie_dict = self.crud.addMovie(movie)
+            actors = self._save_actors(movie.actors)
+            for actor in actors:
+                self.crud.addActorToMovie(movie_dict.get("id"), actor.get("id"))
+
+            return movie
+
+        except Exception as e:
+            print(f"Error al guardar la película {movie.title}: {e}")
+            return {"error": str(e)}
+
+    def _save_actors(self, actor: List[Actor]) -> dict:
+        actor_list = []
+        try:
+            for a in actor:
+                actor_dict = self.crud.addActor(a)
+                actor_list.append(actor_dict)
+            return actor_list
+        except Exception as e:
+            print(f"Error al guardar el actor {actor.name}: {e}")
+            return {"error": str(e)}
+
+    def _exists_movie(self, url: str) -> bool:
+        try:
+            movie = self.crud.getMovieByUrl(url)
+            return movie is not None
+        except Exception as e:
+            print(f"Error al verificar la existencia de la película: {e}")
+            return False
+
     def _process_movie_with_retry(  # type: ignore
         self, url_detail: str, index: int, max_retries: int = 3
     ) -> Movie:  # type: ignore
+
+        # if self._exists_movie(url_detail):
+        #     print(f"Película ya existe: {url_detail}")
+        #     return None
 
         for attempt in range(max_retries):
             try:
@@ -83,10 +127,10 @@ class BfspRequestScraper:
                     title=detail.get("name", "Unknown"),
                     year=self._parse_year(detail.get("datePublished", "1970-01-01")),
                     qualification=dict_get(
-                        detail, ["review", "reviewRating", "worstRating"], "N/A"
+                        detail, ["review", "reviewRating", "worstRating"],0
                     ),
                     duration=convert_duration_to_minutes_iso(
-                        detail.get("duration", "N/A")
+                        detail.get("duration", "")
                     ),
                     metascore=float(
                         detail.get("aggregateRating", {}).get("ratingValue", 0)
@@ -94,6 +138,7 @@ class BfspRequestScraper:
                     url=url_detail,
                     actors=actors,
                 )
+                movie = self._save_movie(movie)
 
                 return movie
 
