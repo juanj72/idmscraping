@@ -6,7 +6,7 @@ class Crud:
     def __init__(self):
         self.session = session
 
-    def addMovie(self, movie: Movie) -> dict:
+    def addMovie(self, movie: Movie) -> dict | str:
         with self.session.session_scope() as session:
             pelicula = Pelicula(
                 titulo=movie.title,
@@ -24,7 +24,7 @@ class Crud:
                 session.rollback()
                 return f"Error al agregar la película: {e}"
 
-    def addActor(self, actor: EntityActor) -> dict:
+    def addActor(self, actor: EntityActor) -> dict | str:
         with self.session.session_scope() as session:
             actor = Actor(nombre=actor.name)
             try:

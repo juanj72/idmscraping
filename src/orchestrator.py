@@ -124,7 +124,7 @@ class BfspRequestScraper:
 
     def _process_movie_with_retry(  # type: ignore
         self, url_detail: str, index: int, max_retries: int = 3
-    ) -> dict:  # type: ignore
+    ) -> dict | None:  # type: ignore
 
         if self._exists_movie(url_detail):
             print(f"✓ Película ya existe, se omite: {url_detail}")
@@ -155,9 +155,9 @@ class BfspRequestScraper:
                     url=url_detail,
                     actors=actors,
                 )
-                movie = self._save_movie(movie)
+                movie_ = self._save_movie(movie)
 
-                return movie
+                return movie_
 
             except Exception as e:
                 if attempt < max_retries - 1:

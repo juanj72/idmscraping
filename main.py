@@ -20,4 +20,3 @@ if __name__ == "__main__":
         f.write(json.dumps(movies, indent=4, ensure_ascii=False))
     end_time = time.time()
     print(f"Tiempo total de ejecución: {end_time - start_time:.2f} segundos")
-
