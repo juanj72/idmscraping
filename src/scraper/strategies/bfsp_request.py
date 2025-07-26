@@ -75,7 +75,7 @@ class BfspRequestScraper(BaseScraper):
         script_element = soup.find("script", type="application/ld+json")
 
         if script_element:
-            return parse_json_ld(script_element.string) # type: ignore
+            return parse_json_ld(script_element.string)  # type: ignore
         return {}
 
     def get_data(self, url: str) -> dict:

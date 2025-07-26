@@ -27,7 +27,7 @@ peliculas_actores = Table(
 )
 
 
-class Pelicula(Base):
+class Pelicula(Base):  # type: ignore
     __tablename__ = "peliculas"
 
     id = Column(Integer, primary_key=True)
@@ -37,6 +37,7 @@ class Pelicula(Base):
     duracion = Column(Float)
     metascore = Column(Float)
     url = Column(String(512), nullable=False, unique=True)
+
     def to_dict(self):
         return {
             "id": self.id,
@@ -45,7 +46,7 @@ class Pelicula(Base):
             "calificacion": self.calificacion,
             "duracion": self.duracion,
             "metascore": self.metascore,
-            "url": self.url
+            "url": self.url,
         }
 
     actores = relationship(
@@ -53,16 +54,15 @@ class Pelicula(Base):
     )
 
 
-class Actor(Base):
+class Actor(Base):  # type: ignore
     __tablename__ = "actores"
 
     id = Column(Integer, primary_key=True)
     nombre = Column(String(255), nullable=False, unique=True)
+
     def to_dict(self):
-        return {
-            "id": self.id,
-            "nombre": self.nombre
-        }
+        return {"id": self.id, "nombre": self.nombre}
+
     peliculas = relationship(
         "Pelicula", secondary=peliculas_actores, back_populates="actores"
     )

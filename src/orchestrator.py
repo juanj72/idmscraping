@@ -18,7 +18,6 @@ class BfspRequestScraper:
         self.lock = Lock()  # to thread-safe operations
 
     def _convert_to_dict(self, movies: List[Movie]) -> List[dict]:
-        """Convert a list of Movie objects to a list of dictionaries."""
         return [asdict(movie) for movie in movies]
 
     def get_movies(self, base_url: str) -> List[dict]:
@@ -63,7 +62,7 @@ class BfspRequestScraper:
                     print(f"✗ Error en {url}: {e}")
 
         return self._convert_to_dict(movie_objects)
-
+    
     def _process_movie_with_retry(  # type: ignore
         self, url_detail: str, index: int, max_retries: int = 3
     ) -> Movie:  # type: ignore
@@ -110,5 +109,6 @@ class BfspRequestScraper:
     def _parse_year(self, date_str: str) -> int:
         try:
             return datetime.strptime(date_str, "%Y-%m-%d").year
-        except:
+        except Exception as e:
+            print(f"Error al parsear el año: {e}")
             return 1970

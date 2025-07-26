@@ -14,7 +14,7 @@ class SessionManager:
         )
         self.engine = create_engine(
             self.database_url,
-            echo=self.config['env'] == "development",
+            echo=self.config["env"] == "development",
             future=True,
         )
         self.SessionLocal = sessionmaker(

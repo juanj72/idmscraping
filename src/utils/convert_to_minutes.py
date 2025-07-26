@@ -9,5 +9,6 @@ def convert_duration_to_minutes_iso(duration_str: str) -> int:
     try:
         duration = isodate.parse_duration(duration_str)
         return int(duration.total_seconds() / 60)
-    except:
+    except Exception as e:
+        print(f"Error al convertir la duración: {e}")
         return 0
