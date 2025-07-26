@@ -64,7 +64,7 @@ class BfspRequestScraper:
 
         return self._convert_to_dict(movie_objects)
 
-    def _process_movie_with_retry( #type: ignore
+    def _process_movie_with_retry(  # type: ignore
         self, url_detail: str, index: int, max_retries: int = 3
     ) -> Movie:  # type: ignore
 

@@ -11,10 +11,10 @@ class Config:
             "env": self._get_env_var("ENV", str, default="development"),
             "database": {
                 "host": self._get_env_var("DATABASE_HOST", str, default="localhost"),
-                "port": self._get_env_var("DATABASE_PORT", int, default=5432),
+                "port": self._get_env_var("DATABASE_PORT", int, default=3306),
                 "name": self._get_env_var("DATABASE_NAME", str, default="idmscraping"),
-                "user": self._get_env_var("DATABASE_USER", str, default="postgres"),
-                "password": self._get_env_var("DATABASE_PASSWORD", str, default="postgres"),
+                "user": self._get_env_var("DATABASE_USER", str, default="root"),
+                "password": self._get_env_var("DATABASE_PASSWORD", str, default=""),
             },
         }
 
