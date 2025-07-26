@@ -114,7 +114,7 @@ class BfspRequestScraper(BaseScraper):
                 if match:
                     return int(match.group())
 
-        return 0
+        return None
 
     def get_metascore(self, url: str) -> int:
         html_content = self.downloader.get_html(url)

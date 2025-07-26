@@ -151,7 +151,7 @@ class BfspRequestScraper:
                     duration=convert_duration_to_minutes_iso(
                         detail.get("duration", "")
                     ),
-                    metascore=float(dict_get(detail, ["metascore"])),
+                    metascore=dict_get(detail, ["metascore"]),
                     url=url_detail,
                     actors=actors,
                 )
