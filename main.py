@@ -9,7 +9,7 @@ if __name__ == "__main__":
     downloader = DownloaderHelper()
     url = "https://www.imdb.com/chart/top/?groups=top_250&count=250"
     scraper = BfspRequestScraper(downloader)
-    orchestrator_scraper = OrchestratorBfspRequestScraper(scraper, 8, 0)
+    orchestrator_scraper = OrchestratorBfspRequestScraper(scraper, 12, 0)
     movies = orchestrator_scraper.get_movies(url)
     with open("movies.json", "w") as f:
         f.write(json.dumps(movies, indent=4, ensure_ascii=False))
