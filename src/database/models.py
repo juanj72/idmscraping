@@ -37,6 +37,16 @@ class Pelicula(Base):
     duracion = Column(Float)
     metascore = Column(Float)
     url = Column(String(512), nullable=False, unique=True)
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "titulo": self.titulo,
+            "anio": self.anio,
+            "calificacion": self.calificacion,
+            "duracion": self.duracion,
+            "metascore": self.metascore,
+            "url": self.url
+        }
 
     actores = relationship(
         "Actor", secondary=peliculas_actores, back_populates="peliculas"
@@ -48,7 +58,11 @@ class Actor(Base):
 
     id = Column(Integer, primary_key=True)
     nombre = Column(String(255), nullable=False, unique=True)
-
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "nombre": self.nombre
+        }
     peliculas = relationship(
         "Pelicula", secondary=peliculas_actores, back_populates="actores"
     )

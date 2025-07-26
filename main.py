@@ -3,7 +3,7 @@ from src.scraper.strategies.bfsp_request import BfspRequestScraper
 from src.scraper.dowloader import DownloaderHelper
 from src.orchestrator import BfspRequestScraper as OrchestratorBfspRequestScraper
 import time
-from src.database.crud import Crud
+
 
 if __name__ == "__main__":
 
