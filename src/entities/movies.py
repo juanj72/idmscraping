@@ -11,7 +11,7 @@ class Actor:
 class Movie:
     title: str
     year: int
-    qualification: int
+    qualification: float
     duration: float
     metascore: float
     url: str

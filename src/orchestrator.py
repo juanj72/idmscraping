@@ -146,14 +146,12 @@ class BfspRequestScraper:
                     title=detail.get("name", "Unknown"),
                     year=self._parse_year(detail.get("datePublished", "1970-01-01")),
                     qualification=dict_get(
-                        detail, ["review", "reviewRating", "worstRating"], 0
+                        detail, ["aggregateRating", "ratingValue"], 0
                     ),
                     duration=convert_duration_to_minutes_iso(
                         detail.get("duration", "")
                     ),
-                    metascore=float(
-                        detail.get("aggregateRating", {}).get("ratingValue", 0)
-                    ),
+                    metascore=float(dict_get(detail, ["metascore"])),
                     url=url_detail,
                     actors=actors,
                 )
