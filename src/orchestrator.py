@@ -69,47 +69,66 @@ class BfspRequestScraper:
                 except Exception as e:
                     print(f"✗ Error en {url}: {e}")
 
-        return self._convert_to_dict(movie_objects)
+        return movie_objects
 
     def _save_movie(self, movie: Movie) -> dict:
         try:
             movie_dict = self.crud.addMovie(movie)
+            if isinstance(movie_dict, str):
+                print(f"Error al guardar la película {movie.title}: {movie_dict}")
+                return {"error": movie_dict}
+
             actors = self._save_actors(movie.actors)
+            if isinstance(actors, str):
+                print(f"Error al guardar los actores de {movie.title}: {actors}")
+                return {"error": actors}
+
             for actor in actors:
                 self.crud.addActorToMovie(movie_dict.get("id"), actor.get("id"))
 
-            return movie
+            return movie_dict
 
         except Exception as e:
-            print(f"Error al guardar la película {movie.title}: {e}")
+            print(f"Error inesperado al guardar la película {movie.title}: {e}")
             return {"error": str(e)}
 
-    def _save_actors(self, actor: List[Actor]) -> dict:
+    def _save_actors(self, actors: List[Actor]) -> List[dict] | str:
         actor_list = []
         try:
-            for a in actor:
-                actor_dict = self.crud.addActor(a)
+            for a in actors:
+                actor_dict = self.crud.getActor(a.name)
+                if isinstance(actor_dict, str):  # si hubo error
+                    return actor_dict  # corto circuito
+
+                if actor_dict is None:  # actor no existe, se crea
+                    actor_dict = self.crud.addActor(a)
+                    if isinstance(actor_dict, str):
+                        return actor_dict
+
                 actor_list.append(actor_dict)
+
             return actor_list
         except Exception as e:
-            print(f"Error al guardar el actor {actor.name}: {e}")
-            return {"error": str(e)}
+            print(f"Error al guardar actor {a.name}: {e}")
+            return str(e)
 
     def _exists_movie(self, url: str) -> bool:
-        try:
-            movie = self.crud.getMovieByUrl(url)
-            return movie is not None
-        except Exception as e:
-            print(f"Error al verificar la existencia de la película: {e}")
+        movie = self.crud.getMovieByUrl(url)
+
+        # Si movie es string, es un error
+        if isinstance(movie, str):
+            print(f"Pelicula no existe, se procede a guardar: {movie}")
             return False
+
+        return movie is not None
 
     def _process_movie_with_retry(  # type: ignore
         self, url_detail: str, index: int, max_retries: int = 3
-    ) -> Movie:  # type: ignore
+    ) -> dict:  # type: ignore
 
-        # if self._exists_movie(url_detail):
-        #     print(f"Película ya existe: {url_detail}")
-        #     return None
+        if self._exists_movie(url_detail):
+            print(f"✓ Película ya existe, se omite: {url_detail}")
+            return None
 
         for attempt in range(max_retries):
             try:
@@ -127,7 +146,7 @@ class BfspRequestScraper:
                     title=detail.get("name", "Unknown"),
                     year=self._parse_year(detail.get("datePublished", "1970-01-01")),
                     qualification=dict_get(
-                        detail, ["review", "reviewRating", "worstRating"],0
+                        detail, ["review", "reviewRating", "worstRating"], 0
                     ),
                     duration=convert_duration_to_minutes_iso(
                         detail.get("duration", "")

@@ -63,11 +63,14 @@ class Crud:
             except Exception as e:
                 return f"Error al obtener la película por URL: {e}"
 
-    def getActor(self, actor_id):
+    def getActor(self, actor_name):
         with self.session.session_scope() as session:
             try:
-                actor = session.query(Actor).filter_by(id=actor_id).one()
-                return actor.to_dict()
+                actor = session.query(Actor).filter_by(nombre=actor_name).one_or_none()
+                if actor:
+                    return actor.to_dict()
+                else:
+                    return None
             except Exception as e:
                 return f"Error al obtener el actor: {e}"
 
