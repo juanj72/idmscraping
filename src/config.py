@@ -7,6 +7,10 @@ from dotenv import load_dotenv
 class Config:
     def __init__(self):
         load_dotenv()
+        self.ip_rotation = {
+            1: True,
+            0: False,
+        }
         self.config: Dict[str, Any] = {
             "env": self._get_env_var("ENV", str, default="development"),
             "database": {
@@ -16,7 +20,13 @@ class Config:
                 "user": self._get_env_var("DATABASE_USER", str, default="root"),
                 "password": self._get_env_var("DATABASE_PASSWORD", str, default=""),
             },
+            "proxy": {
+                "ip_rotation": self.ip_rotation.get(
+                    self._get_env_var("IP_ROTATION", str, default=1)
+                ),
+            },
         }
+        
 
     def _get_env_var(self, name, expected_type, default=None):
         value = os.getenv(name)

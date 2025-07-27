@@ -1,5 +1,5 @@
 import requests
-
+from src.utils.logger import logger
 
 def get_ip_request(proxy: str | None = None) -> str | None:
     try:
@@ -12,7 +12,9 @@ def get_ip_request(proxy: str | None = None) -> str | None:
         else:   
             response = requests.get("https://api.ipify.org?format=json", timeout=10)
             response.raise_for_status()
+            logger.info(f"IP obtenida: {response.json().get('ip')}")
+
             return response.json().get("ip")
     except Exception as e:
-        print(f"Error al obtener IP: {e}")
+        logger.error(f"Error al obtener IP: {e}")
         return None

@@ -9,6 +9,7 @@ from threading import Lock
 from dataclasses import asdict
 from src.utils.convert_to_minutes import convert_duration_to_minutes_iso
 from src.database.crud import Crud
+from src.utils.logger import logger
 
 
 class BfspRequestScraper:
@@ -24,6 +25,7 @@ class BfspRequestScraper:
         self.delay = delay  # Delay between requests
         self.lock = Lock()  # to thread-safe operations
         self.crud = crud
+        logger.info(f"BfspRequestScraper initialized with {max_workers} workers and {delay} seconds delay.")
 
     def _convert_to_dict(self, movies: List[Movie]) -> List[dict]:
         return [asdict(movie) for movie in movies]
@@ -37,7 +39,7 @@ class BfspRequestScraper:
             if movie.get("item") and movie.get("item").get("url")
         ]
 
-        print(f"Procesando {len(movie_urls)} películas...")
+        logger.info(f"Procesando {len(movie_urls)} películas...")
 
         movie_objects = []
         processed_count = 0
@@ -61,13 +63,13 @@ class BfspRequestScraper:
                     processed_count += 1
 
                     with self.lock:
-                        print(
+                        logger.info(
                             f"Progreso: {processed_count}/{len(movie_urls)} "
                             f"({processed_count/len(movie_urls)*100:.1f}%)"
                         )
 
                 except Exception as e:
-                    print(f"✗ Error en {url}: {e}")
+                    logger.error(f"✗ Error en {url}: {e}")
 
         return movie_objects
 
@@ -75,12 +77,12 @@ class BfspRequestScraper:
         try:
             movie_dict = self.crud.addMovie(movie)
             if isinstance(movie_dict, str):
-                print(f"Error al guardar la película {movie.title}: {movie_dict}")
+                logger.error(f"Error al guardar la película {movie.title}: {movie_dict}")
                 return {"error": movie_dict}
 
             actors = self._save_actors(movie.actors)
             if isinstance(actors, str):
-                print(f"Error al guardar los actores de {movie.title}: {actors}")
+                logger.error(f"Error al guardar los actores de {movie.title}: {actors}")
                 return {"error": actors}
 
             for actor in actors:
@@ -89,7 +91,7 @@ class BfspRequestScraper:
             return movie_dict
 
         except Exception as e:
-            print(f"Error inesperado al guardar la película {movie.title}: {e}")
+            logger.error(f"Error inesperado al guardar la película {movie.title}: {e}")
             return {"error": str(e)}
 
     def _save_actors(self, actors: List[Actor]) -> List[dict] | str:
@@ -109,7 +111,7 @@ class BfspRequestScraper:
 
             return actor_list
         except Exception as e:
-            print(f"Error al guardar actor {a.name}: {e}")
+            logger.error(f"Error al guardar actor {a.name}: {e}")
             return str(e)
 
     def _exists_movie(self, url: str) -> bool:
@@ -117,7 +119,7 @@ class BfspRequestScraper:
 
         # Si movie es string, es un error # TODO: mejorar manejo de errores
         if isinstance(movie, str):
-            print(f"Pelicula no existe, se procede a guardar: {movie}")
+            logger.warning(f"Pelicula no existe, se procede a guardar: {movie}")
             return False
 
         return movie is not None
@@ -127,7 +129,7 @@ class BfspRequestScraper:
     ) -> dict | None:  # type: ignore
 
         if self._exists_movie(url_detail):
-            print(f"✓ Película ya existe, se omite: {url_detail}")
+            logger.info(f"✓ Película ya existe, se omite: {url_detail}")
             return None
 
         for attempt in range(max_retries):
@@ -161,10 +163,10 @@ class BfspRequestScraper:
 
             except Exception as e:
                 if attempt < max_retries - 1:
-                    print(f"Reintento {attempt + 1}/{max_retries} para {url_detail}")
+                    logger.warning(f"Reintento {attempt + 1}/{max_retries} para {url_detail}")
                     time.sleep(2**attempt)  # Backoff exponencial
                 else:
-                    print(f"Falló después de {max_retries} intentos: {url_detail}")
+                    logger.error(f"Falló después de {max_retries} intentos: {url_detail}")
                     raise e
 
     # TODO: move to utils
@@ -172,5 +174,5 @@ class BfspRequestScraper:
         try:
             return datetime.strptime(date_str, "%Y-%m-%d").year
         except Exception as e:
-            print(f"Error al parsear el año: {e}")
+            logger.error(f"Error al parsear el año: {e}")
             return 1970
