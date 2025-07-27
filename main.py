@@ -10,9 +10,9 @@ from src.scraper.proxys.get_proxys import fetch_proxies
 if __name__ == "__main__":
 
     start_time = time.time()
-    fetch_proxies("https")
+    # fetch_proxies("https")
     crud = Crud()
-    downloader = DownloaderHelper()
+    downloader = DownloaderHelper(ip_rotation=False)
     url = "https://www.imdb.com/chart/top/?groups=top_250&count=250"
     scraper = BfspRequestScraper(downloader)
 

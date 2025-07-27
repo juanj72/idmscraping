@@ -19,6 +19,8 @@ class BfspRequestScraper(BaseScraper):
 
     def get_data(self, url: str) -> dict:
         html_content = self.downloader.get_html(url)
+        if not html_content:
+            raise ValueError("No HTML content found")
         data_json = self._get_json(html_content)
         data_json["metascore"] = self._get_metascore_from_html(html_content)
         return data_json
