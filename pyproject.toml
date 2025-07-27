@@ -19,7 +19,11 @@ pymysql = "^1.1.1"
 python-dotenv = "^1.1.1"
 pandas = "^2.3.1"
 riseup-vpn-configurator = "^1.3.0"
+pytest = "^8.4.1"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest-mock = "^3.14.1"
 
 [build-system]
 requires = ["poetry-core"]
