@@ -9,8 +9,12 @@ Un scraper robusto y escalable para extraer información de películas de IMDb c
 
 ## Requisitos:
 
-   - python 3.12.8
-   - poetry 1.7.1
+- python 3.12.8
+- poetry 1.7.1
+
+## Demo
+
+- https://drive.google.com/file/d/1jZfwTWnZdN44phKCHvE3iegSLsFtkPYB/view?usp=sharing
 
 ## 🌟 **Características**
 
