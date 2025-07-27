@@ -3,6 +3,7 @@ from src.scraper.base import BaseScraper
 from src.scraper.dowloader import DownloaderHelper
 from src.scraper.parser import parse_json_ld
 import re
+from src.utils.logger import logger
 
 
 class BfspRequestScraper(BaseScraper):
@@ -19,8 +20,12 @@ class BfspRequestScraper(BaseScraper):
 
     def get_data(self, url: str) -> dict:
         html_content = self.downloader.get_html(url)
+        if not html_content:
+            logger.error(f"No HTML content found for URL: {url}")
+            raise ValueError("No HTML content found")
         data_json = self._get_json(html_content)
         data_json["metascore"] = self._get_metascore_from_html(html_content)
+
         return data_json
 
     def _get_metascore_from_html(self, html: str) -> int | None:
@@ -53,7 +58,3 @@ class BfspRequestScraper(BaseScraper):
                     return int(match.group())
 
         return None
-
-    def get_metascore(self, url: str) -> int | None:
-        html_content = self.downloader.get_html(url)
-        return self._get_metascore_from_html(html_content)

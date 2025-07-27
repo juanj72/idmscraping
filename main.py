@@ -5,20 +5,29 @@ from src.orchestrator import BfspRequestScraper as OrchestratorBfspRequestScrape
 import time
 from src.database.crud import Crud
 from src.scraper.proxys.get_proxys import fetch_proxies
-
+from src.config import Config
+from src.utils.logger import logger
+from src.exporter.exporter import export_to_csv
 
 if __name__ == "__main__":
 
     start_time = time.time()
-    fetch_proxies("https")
+    logger.info("Iniciando el scraper de películas de IMDB...")
+    config = Config()
+    logger.info(f"Configuración cargada ..")
+    fetch_proxies("https")  # Uncomment to fetch proxies and cache them
+    logger.info("Proxies cacheados correctamente.")
+    logger.info("Iniciando el downloader helper...")
     crud = Crud()
-    downloader = DownloaderHelper()
+    downloader = DownloaderHelper(config)
     url = "https://www.imdb.com/chart/top/?groups=top_250&count=250"
     scraper = BfspRequestScraper(downloader)
 
     orchestrator_scraper = OrchestratorBfspRequestScraper(scraper, crud, 12, 0)
     movies = orchestrator_scraper.get_movies(url)
-    with open("movies.json", "w") as f:
-        f.write(json.dumps(movies, indent=4, ensure_ascii=False))
+    logger.info(f"Películas obtenidas: {len(movies)}")
+    # Export to CSV
+    export_to_csv(movies, "movies")
+
     end_time = time.time()
-    print(f"Tiempo total de ejecución: {end_time - start_time:.2f} segundos")
+    logger.info(f"Tiempo total de ejecución: {end_time - start_time:.2f} segundos")

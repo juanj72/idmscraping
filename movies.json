@@ -1,1 +1,1091 @@
-[]
+[
+    {
+        "id": 3743,
+        "titulo": "Jurassic Park",
+        "anio": 1993,
+        "calificacion": 8,
+        "duracion": 127.0,
+        "metascore": 68.0,
+        "url": "https://www.imdb.com/title/tt0107290/"
+    },
+    {
+        "id": 3746,
+        "titulo": "Batman Begins",
+        "anio": 2005,
+        "calificacion": 8,
+        "duracion": 140.0,
+        "metascore": 70.0,
+        "url": "https://www.imdb.com/title/tt0372784/"
+    },
+    {
+        "id": 3744,
+        "titulo": "The Truman Show",
+        "anio": 1998,
+        "calificacion": 8,
+        "duracion": 103.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt0120382/"
+    },
+    {
+        "id": 3745,
+        "titulo": "Taxi Driver",
+        "anio": 1976,
+        "calificacion": 8,
+        "duracion": 114.0,
+        "metascore": 94.0,
+        "url": "https://www.imdb.com/title/tt0075314/"
+    },
+    {
+        "id": 3748,
+        "titulo": "The Kid",
+        "anio": 1921,
+        "calificacion": 8,
+        "duracion": 68.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt0012349/"
+    },
+    {
+        "id": 3749,
+        "titulo": "Per qualche dollaro in più",
+        "anio": 1967,
+        "calificacion": 8,
+        "duracion": 132.0,
+        "metascore": 74.0,
+        "url": "https://www.imdb.com/title/tt0059578/"
+    },
+    {
+        "id": 3747,
+        "titulo": "Some Like It Hot",
+        "anio": 1959,
+        "calificacion": 8,
+        "duracion": 121.0,
+        "metascore": 98.0,
+        "url": "https://www.imdb.com/title/tt0053291/"
+    },
+    {
+        "id": 3750,
+        "titulo": "Green Book",
+        "anio": 2018,
+        "calificacion": 8,
+        "duracion": 130.0,
+        "metascore": 69.0,
+        "url": "https://www.imdb.com/title/tt6966692/"
+    },
+    {
+        "id": 3751,
+        "titulo": "The Father",
+        "anio": 2021,
+        "calificacion": 8,
+        "duracion": 97.0,
+        "metascore": 88.0,
+        "url": "https://www.imdb.com/title/tt10272386/"
+    },
+    {
+        "id": 3752,
+        "titulo": "Judgment at Nuremberg",
+        "anio": 1961,
+        "calificacion": 8,
+        "duracion": 179.0,
+        "metascore": 60.0,
+        "url": "https://www.imdb.com/title/tt0055031/"
+    },
+    {
+        "id": 3753,
+        "titulo": "All About Eve",
+        "anio": 1950,
+        "calificacion": 8,
+        "duracion": 138.0,
+        "metascore": 98.0,
+        "url": "https://www.imdb.com/title/tt0042192/"
+    },
+    {
+        "id": 3754,
+        "titulo": "Shutter Island",
+        "anio": 2010,
+        "calificacion": 8,
+        "duracion": 138.0,
+        "metascore": 63.0,
+        "url": "https://www.imdb.com/title/tt1130884/"
+    },
+    {
+        "id": 3756,
+        "titulo": "A Beautiful Mind",
+        "anio": 2002,
+        "calificacion": 8,
+        "duracion": 135.0,
+        "metascore": 72.0,
+        "url": "https://www.imdb.com/title/tt0268978/"
+    },
+    {
+        "id": 3755,
+        "titulo": "Top Gun: Maverick",
+        "anio": 2022,
+        "calificacion": 8,
+        "duracion": 130.0,
+        "metascore": 78.0,
+        "url": "https://www.imdb.com/title/tt1745960/"
+    },
+    {
+        "id": 3757,
+        "titulo": "There Will Be Blood",
+        "anio": 2008,
+        "calificacion": 8,
+        "duracion": 158.0,
+        "metascore": 93.0,
+        "url": "https://www.imdb.com/title/tt0469494/"
+    },
+    {
+        "id": 3758,
+        "titulo": "The Thing",
+        "anio": 1982,
+        "calificacion": 8,
+        "duracion": 109.0,
+        "metascore": 57.0,
+        "url": "https://www.imdb.com/title/tt0084787/"
+    },
+    {
+        "id": 3760,
+        "titulo": "Ran",
+        "anio": 1985,
+        "calificacion": 8,
+        "duracion": 160.0,
+        "metascore": 97.0,
+        "url": "https://www.imdb.com/title/tt0089881/"
+    },
+    {
+        "id": 3759,
+        "titulo": "Kill Bill: Vol. 1",
+        "anio": 2003,
+        "calificacion": 8,
+        "duracion": 111.0,
+        "metascore": 69.0,
+        "url": "https://www.imdb.com/title/tt0266697/"
+    },
+    {
+        "id": 3761,
+        "titulo": "Prisoners",
+        "anio": 2013,
+        "calificacion": 8,
+        "duracion": 153.0,
+        "metascore": 70.0,
+        "url": "https://www.imdb.com/title/tt1392214/"
+    },
+    {
+        "id": 3762,
+        "titulo": "No Country for Old Men",
+        "anio": 2007,
+        "calificacion": 8,
+        "duracion": 122.0,
+        "metascore": 92.0,
+        "url": "https://www.imdb.com/title/tt0477348/"
+    },
+    {
+        "id": 3765,
+        "titulo": "El laberinto del fauno",
+        "anio": 2007,
+        "calificacion": 8,
+        "duracion": 118.0,
+        "metascore": 98.0,
+        "url": "https://www.imdb.com/title/tt0457430/"
+    },
+    {
+        "id": 3763,
+        "titulo": "Casino",
+        "anio": 1995,
+        "calificacion": 8,
+        "duracion": 178.0,
+        "metascore": 73.0,
+        "url": "https://www.imdb.com/title/tt0112641/"
+    },
+    {
+        "id": 3764,
+        "titulo": "The Sixth Sense",
+        "anio": 1999,
+        "calificacion": 8,
+        "duracion": 107.0,
+        "metascore": 64.0,
+        "url": "https://www.imdb.com/title/tt0167404/"
+    },
+    {
+        "id": 3766,
+        "titulo": "Monty Python and the Holy Grail",
+        "anio": 1975,
+        "calificacion": 8,
+        "duracion": 91.0,
+        "metascore": 91.0,
+        "url": "https://www.imdb.com/title/tt0071853/"
+    },
+    {
+        "id": 3767,
+        "titulo": "Klaus",
+        "anio": 2019,
+        "calificacion": 8,
+        "duracion": 96.0,
+        "metascore": 65.0,
+        "url": "https://www.imdb.com/title/tt4729430/"
+    },
+    {
+        "id": 3769,
+        "titulo": "Gone with the Wind",
+        "anio": 1940,
+        "calificacion": 8,
+        "duracion": 238.0,
+        "metascore": 97.0,
+        "url": "https://www.imdb.com/title/tt0031381/"
+    },
+    {
+        "id": 3770,
+        "titulo": "La meglio gioventù",
+        "anio": 2003,
+        "calificacion": 8,
+        "duracion": 374.0,
+        "metascore": 89.0,
+        "url": "https://www.imdb.com/title/tt0346336/"
+    },
+    {
+        "id": 3773,
+        "titulo": "Yôjinbô",
+        "anio": 1961,
+        "calificacion": 8,
+        "duracion": 110.0,
+        "metascore": 93.0,
+        "url": "https://www.imdb.com/title/tt0055630/"
+    },
+    {
+        "id": 3768,
+        "titulo": "Finding Nemo",
+        "anio": 2003,
+        "calificacion": 8,
+        "duracion": 100.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt0266543/"
+    },
+    {
+        "id": 3772,
+        "titulo": "Hauru no ugoku shiro",
+        "anio": 2005,
+        "calificacion": 8,
+        "duracion": 119.0,
+        "metascore": 82.0,
+        "url": "https://www.imdb.com/title/tt0347149/"
+    },
+    {
+        "id": 3774,
+        "titulo": "Dial M for Murder",
+        "anio": 1954,
+        "calificacion": 8,
+        "duracion": 105.0,
+        "metascore": 75.0,
+        "url": "https://www.imdb.com/title/tt0046912/"
+    },
+    {
+        "id": 3771,
+        "titulo": "The Great Escape",
+        "anio": 1963,
+        "calificacion": 8,
+        "duracion": 172.0,
+        "metascore": 86.0,
+        "url": "https://www.imdb.com/title/tt0057115/"
+    },
+    {
+        "id": 3775,
+        "titulo": "The Elephant Man",
+        "anio": 1980,
+        "calificacion": 8,
+        "duracion": 124.0,
+        "metascore": 78.0,
+        "url": "https://www.imdb.com/title/tt0080678/"
+    },
+    {
+        "id": 3776,
+        "titulo": "The Treasure of the Sierra Madre",
+        "anio": 1948,
+        "calificacion": 8,
+        "duracion": 126.0,
+        "metascore": 98.0,
+        "url": "https://www.imdb.com/title/tt0040897/"
+    },
+    {
+        "id": 3777,
+        "titulo": "Unforgiven",
+        "anio": 1992,
+        "calificacion": 8,
+        "duracion": 130.0,
+        "metascore": 85.0,
+        "url": "https://www.imdb.com/title/tt0105695/"
+    },
+    {
+        "id": 3779,
+        "titulo": "Lock, Stock and Two Smoking Barrels",
+        "anio": 1998,
+        "calificacion": 8,
+        "duracion": 107.0,
+        "metascore": 67.0,
+        "url": "https://www.imdb.com/title/tt0120735/"
+    },
+    {
+        "id": 3778,
+        "titulo": "El secreto de sus ojos",
+        "anio": 2010,
+        "calificacion": 8,
+        "duracion": 129.0,
+        "metascore": 80.0,
+        "url": "https://www.imdb.com/title/tt1305806/"
+    },
+    {
+        "id": 3780,
+        "titulo": "The Wild Robot",
+        "anio": 2024,
+        "calificacion": 8,
+        "duracion": 102.0,
+        "metascore": 85.0,
+        "url": "https://www.imdb.com/title/tt29623480/"
+    },
+    {
+        "id": 3782,
+        "titulo": "Inside Out",
+        "anio": 2015,
+        "calificacion": 8,
+        "duracion": 95.0,
+        "metascore": 94.0,
+        "url": "https://www.imdb.com/title/tt2096673/"
+    },
+    {
+        "id": 3781,
+        "titulo": "Trainspotting",
+        "anio": 1996,
+        "calificacion": 8,
+        "duracion": 93.0,
+        "metascore": 83.0,
+        "url": "https://www.imdb.com/title/tt0117951/"
+    },
+    {
+        "id": 3783,
+        "titulo": "The Bridge on the River Kwai",
+        "anio": 1957,
+        "calificacion": 8,
+        "duracion": 161.0,
+        "metascore": 88.0,
+        "url": "https://www.imdb.com/title/tt0050212/"
+    },
+    {
+        "id": 3786,
+        "titulo": "Catch Me If You Can",
+        "anio": 2002,
+        "calificacion": 8,
+        "duracion": 141.0,
+        "metascore": 75.0,
+        "url": "https://www.imdb.com/title/tt0264464/"
+    },
+    {
+        "id": 3784,
+        "titulo": "Chinatown",
+        "anio": 1974,
+        "calificacion": 8,
+        "duracion": 130.0,
+        "metascore": 92.0,
+        "url": "https://www.imdb.com/title/tt0071315/"
+    },
+    {
+        "id": 3788,
+        "titulo": "Raging Bull",
+        "anio": 1980,
+        "calificacion": 8,
+        "duracion": 129.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt0081398/"
+    },
+    {
+        "id": 3787,
+        "titulo": "Rashômon",
+        "anio": 1951,
+        "calificacion": 8,
+        "duracion": 88.0,
+        "metascore": 98.0,
+        "url": "https://www.imdb.com/title/tt0042876/"
+    },
+    {
+        "id": 3785,
+        "titulo": "Three Billboards Outside Ebbing, Missouri",
+        "anio": 2017,
+        "calificacion": 8,
+        "duracion": 115.0,
+        "metascore": 88.0,
+        "url": "https://www.imdb.com/title/tt5027774/"
+    },
+    {
+        "id": 3789,
+        "titulo": "V for Vendetta",
+        "anio": 2006,
+        "calificacion": 8,
+        "duracion": 132.0,
+        "metascore": 62.0,
+        "url": "https://www.imdb.com/title/tt0434409/"
+    },
+    {
+        "id": 3790,
+        "titulo": "Fargo",
+        "anio": 1996,
+        "calificacion": 8,
+        "duracion": 98.0,
+        "metascore": 88.0,
+        "url": "https://www.imdb.com/title/tt0116282/"
+    },
+    {
+        "id": 3792,
+        "titulo": "Gran Torino",
+        "anio": 2009,
+        "calificacion": 8,
+        "duracion": 116.0,
+        "metascore": 73.0,
+        "url": "https://www.imdb.com/title/tt1205489/"
+    },
+    {
+        "id": 3791,
+        "titulo": "Million Dollar Baby",
+        "anio": 2005,
+        "calificacion": 8,
+        "duracion": 132.0,
+        "metascore": 86.0,
+        "url": "https://www.imdb.com/title/tt0405159/"
+    },
+    {
+        "id": 3793,
+        "titulo": "Tonari no Totoro",
+        "anio": 1990,
+        "calificacion": 8,
+        "duracion": 86.0,
+        "metascore": 87.0,
+        "url": "https://www.imdb.com/title/tt0096283/"
+    },
+    {
+        "id": 3795,
+        "titulo": "Warrior",
+        "anio": 2011,
+        "calificacion": 8,
+        "duracion": 140.0,
+        "metascore": 71.0,
+        "url": "https://www.imdb.com/title/tt1291584/"
+    },
+    {
+        "id": 3794,
+        "titulo": "Barry Lyndon",
+        "anio": 1975,
+        "calificacion": 8,
+        "duracion": 185.0,
+        "metascore": 89.0,
+        "url": "https://www.imdb.com/title/tt0072684/"
+    },
+    {
+        "id": 3796,
+        "titulo": "Mad Max: Fury Road",
+        "anio": 2015,
+        "calificacion": 8,
+        "duracion": 120.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt1392190/"
+    },
+    {
+        "id": 3797,
+        "titulo": "Harry Potter and the Deathly Hallows: Part 2",
+        "anio": 2011,
+        "calificacion": 8,
+        "duracion": 130.0,
+        "metascore": 85.0,
+        "url": "https://www.imdb.com/title/tt1201607/"
+    },
+    {
+        "id": 3798,
+        "titulo": "Ben-Hur",
+        "anio": 1959,
+        "calificacion": 8,
+        "duracion": 212.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt0052618/"
+    },
+    {
+        "id": 3800,
+        "titulo": "Dead Poets Society",
+        "anio": 1989,
+        "calificacion": 8,
+        "duracion": 128.0,
+        "metascore": 79.0,
+        "url": "https://www.imdb.com/title/tt0097165/"
+    },
+    {
+        "id": 3799,
+        "titulo": "Hacksaw Ridge",
+        "anio": 2016,
+        "calificacion": 8,
+        "duracion": 139.0,
+        "metascore": 71.0,
+        "url": "https://www.imdb.com/title/tt2119532/"
+    },
+    {
+        "id": 3801,
+        "titulo": "Bacheha-ye aseman",
+        "anio": 1999,
+        "calificacion": 8,
+        "duracion": 89.0,
+        "metascore": 77.0,
+        "url": "https://www.imdb.com/title/tt0118849/"
+    },
+    {
+        "id": 3804,
+        "titulo": "The Grand Budapest Hotel",
+        "anio": 2014,
+        "calificacion": 8,
+        "duracion": 99.0,
+        "metascore": 88.0,
+        "url": "https://www.imdb.com/title/tt2278388/"
+    },
+    {
+        "id": 3805,
+        "titulo": "Blade Runner",
+        "anio": 1982,
+        "calificacion": 8,
+        "duracion": 117.0,
+        "metascore": 84.0,
+        "url": "https://www.imdb.com/title/tt0083658/"
+    },
+    {
+        "id": 3803,
+        "titulo": "Before Sunrise",
+        "anio": 1995,
+        "calificacion": 8,
+        "duracion": 101.0,
+        "metascore": 79.0,
+        "url": "https://www.imdb.com/title/tt0112471/"
+    },
+    {
+        "id": 3802,
+        "titulo": "12 Years a Slave",
+        "anio": 2013,
+        "calificacion": 8,
+        "duracion": 134.0,
+        "metascore": 96.0,
+        "url": "https://www.imdb.com/title/tt2024544/"
+    },
+    {
+        "id": 3806,
+        "titulo": "How to Train Your Dragon",
+        "anio": 2010,
+        "calificacion": 8,
+        "duracion": 98.0,
+        "metascore": 75.0,
+        "url": "https://www.imdb.com/title/tt0892769/"
+    },
+    {
+        "id": 3809,
+        "titulo": "Salinui chueok",
+        "anio": 2003,
+        "calificacion": 8,
+        "duracion": 132.0,
+        "metascore": 82.0,
+        "url": "https://www.imdb.com/title/tt0353969/"
+    },
+    {
+        "id": 3808,
+        "titulo": "Gone Girl",
+        "anio": 2014,
+        "calificacion": 8,
+        "duracion": 149.0,
+        "metascore": 79.0,
+        "url": "https://www.imdb.com/title/tt2267998/"
+    },
+    {
+        "id": 3807,
+        "titulo": "Jaws",
+        "anio": 1975,
+        "calificacion": 8,
+        "duracion": 124.0,
+        "metascore": 87.0,
+        "url": "https://www.imdb.com/title/tt0073195/"
+    },
+    {
+        "id": 3811,
+        "titulo": "Spider-Man: No Way Home",
+        "anio": 2021,
+        "calificacion": 8,
+        "duracion": 148.0,
+        "metascore": 71.0,
+        "url": "https://www.imdb.com/title/tt10872600/"
+    },
+    {
+        "id": 3810,
+        "titulo": "In the Name of the Father",
+        "anio": 1994,
+        "calificacion": 8,
+        "duracion": 133.0,
+        "metascore": 84.0,
+        "url": "https://www.imdb.com/title/tt0107207/"
+    },
+    {
+        "id": 3812,
+        "titulo": "Ratatouille",
+        "anio": 2007,
+        "calificacion": 8,
+        "duracion": 111.0,
+        "metascore": 96.0,
+        "url": "https://www.imdb.com/title/tt0382932/"
+    },
+    {
+        "id": 3813,
+        "titulo": "Monsters, Inc.",
+        "anio": 2001,
+        "calificacion": 8,
+        "duracion": 92.0,
+        "metascore": 79.0,
+        "url": "https://www.imdb.com/title/tt0198781/"
+    },
+    {
+        "id": 3814,
+        "titulo": "The Deer Hunter",
+        "anio": 1979,
+        "calificacion": 8,
+        "duracion": 183.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt0077416/"
+    },
+    {
+        "id": 3815,
+        "titulo": "The Gold Rush",
+        "anio": 1925,
+        "calificacion": 8,
+        "duracion": 95.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt0015864/"
+    },
+    {
+        "id": 3816,
+        "titulo": "Mary and Max.",
+        "anio": 2009,
+        "calificacion": 8,
+        "duracion": 92.0,
+        "metascore": 72.0,
+        "url": "https://www.imdb.com/title/tt0978762/"
+    },
+    {
+        "id": 3817,
+        "titulo": "Ford v Ferrari",
+        "anio": 2019,
+        "calificacion": 8,
+        "duracion": 152.0,
+        "metascore": 81.0,
+        "url": "https://www.imdb.com/title/tt1950186/"
+    },
+    {
+        "id": 3818,
+        "titulo": "The General",
+        "anio": 1927,
+        "calificacion": 8,
+        "duracion": 78.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt0017925/"
+    },
+    {
+        "id": 3820,
+        "titulo": "On the Waterfront",
+        "anio": 1954,
+        "calificacion": 8,
+        "duracion": 108.0,
+        "metascore": 91.0,
+        "url": "https://www.imdb.com/title/tt0047296/"
+    },
+    {
+        "id": 3819,
+        "titulo": "Le salaire de la peur",
+        "anio": 1955,
+        "calificacion": 8,
+        "duracion": 156.0,
+        "metascore": 85.0,
+        "url": "https://www.imdb.com/title/tt0046268/"
+    },
+    {
+        "id": 3821,
+        "titulo": "Sherlock Jr.",
+        "anio": 1924,
+        "calificacion": 8,
+        "duracion": 45.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt0015324/"
+    },
+    {
+        "id": 3823,
+        "titulo": "Logan",
+        "anio": 2017,
+        "calificacion": 8,
+        "duracion": 137.0,
+        "metascore": 77.0,
+        "url": "https://www.imdb.com/title/tt3315342/"
+    },
+    {
+        "id": 3822,
+        "titulo": "Mr. Smith Goes to Washington",
+        "anio": 1939,
+        "calificacion": 8,
+        "duracion": 129.0,
+        "metascore": 73.0,
+        "url": "https://www.imdb.com/title/tt0031679/"
+    },
+    {
+        "id": 3824,
+        "titulo": "Rocky",
+        "anio": 1976,
+        "calificacion": 8,
+        "duracion": 120.0,
+        "metascore": 70.0,
+        "url": "https://www.imdb.com/title/tt0075148/"
+    },
+    {
+        "id": 3825,
+        "titulo": "Relatos salvajes",
+        "anio": 2014,
+        "calificacion": 8,
+        "duracion": 122.0,
+        "metascore": 77.0,
+        "url": "https://www.imdb.com/title/tt3011894/"
+    },
+    {
+        "id": 3826,
+        "titulo": "Smultronstället",
+        "anio": 1959,
+        "calificacion": 8,
+        "duracion": 92.0,
+        "metascore": 88.0,
+        "url": "https://www.imdb.com/title/tt0050986/"
+    },
+    {
+        "id": 3829,
+        "titulo": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "anio": 2003,
+        "calificacion": 8,
+        "duracion": 143.0,
+        "metascore": 63.0,
+        "url": "https://www.imdb.com/title/tt0325980/"
+    },
+    {
+        "id": 3833,
+        "titulo": "The Terminator",
+        "anio": 1984,
+        "calificacion": 8,
+        "duracion": 107.0,
+        "metascore": 84.0,
+        "url": "https://www.imdb.com/title/tt0088247/"
+    },
+    {
+        "id": 3828,
+        "titulo": "Det sjunde inseglet",
+        "anio": 1958,
+        "calificacion": 8,
+        "duracion": 96.0,
+        "metascore": 88.0,
+        "url": "https://www.imdb.com/title/tt0050976/"
+    },
+    {
+        "id": 3827,
+        "titulo": "Tôkyô monogatari",
+        "anio": 1972,
+        "calificacion": 8,
+        "duracion": 137.0,
+        "metascore": 100.0,
+        "url": "https://www.imdb.com/title/tt0046438/"
+    },
+    {
+        "id": 3831,
+        "titulo": "The Big Lebowski",
+        "anio": 1998,
+        "calificacion": 8,
+        "duracion": 117.0,
+        "metascore": 71.0,
+        "url": "https://www.imdb.com/title/tt0118715/"
+    },
+    {
+        "id": 3830,
+        "titulo": "Spotlight",
+        "anio": 2015,
+        "calificacion": 8,
+        "duracion": 129.0,
+        "metascore": 93.0,
+        "url": "https://www.imdb.com/title/tt1895587/"
+    },
+    {
+        "id": 3834,
+        "titulo": "The Third Man",
+        "anio": 1950,
+        "calificacion": 8,
+        "duracion": 104.0,
+        "metascore": 97.0,
+        "url": "https://www.imdb.com/title/tt0041959/"
+    },
+    {
+        "id": 3832,
+        "titulo": "Maharaja",
+        "anio": 2024,
+        "calificacion": 8,
+        "duracion": 141.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt26548265/"
+    },
+    {
+        "id": 3835,
+        "titulo": "Room",
+        "anio": 2016,
+        "calificacion": 8,
+        "duracion": 118.0,
+        "metascore": 86.0,
+        "url": "https://www.imdb.com/title/tt3170832/"
+    },
+    {
+        "id": 3836,
+        "titulo": "La haine",
+        "anio": 1996,
+        "calificacion": 8,
+        "duracion": 98.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt0113247/"
+    },
+    {
+        "id": 3837,
+        "titulo": "Jai Bhim",
+        "anio": 2021,
+        "calificacion": 9,
+        "duracion": 164.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt15097216/"
+    },
+    {
+        "id": 3838,
+        "titulo": "Platoon",
+        "anio": 1987,
+        "calificacion": 8,
+        "duracion": 120.0,
+        "metascore": 92.0,
+        "url": "https://www.imdb.com/title/tt0091763/"
+    },
+    {
+        "id": 3840,
+        "titulo": "Hotel Rwanda",
+        "anio": 2005,
+        "calificacion": 8,
+        "duracion": 121.0,
+        "metascore": 79.0,
+        "url": "https://www.imdb.com/title/tt0395169/"
+    },
+    {
+        "id": 3841,
+        "titulo": "The Exorcist",
+        "anio": 1973,
+        "calificacion": 8,
+        "duracion": 122.0,
+        "metascore": 83.0,
+        "url": "https://www.imdb.com/title/tt0070047/"
+    },
+    {
+        "id": 3839,
+        "titulo": "The Sound of Music",
+        "anio": 1965,
+        "calificacion": 8,
+        "duracion": 172.0,
+        "metascore": 63.0,
+        "url": "https://www.imdb.com/title/tt0059742/"
+    },
+    {
+        "id": 3843,
+        "titulo": "The Best Years of Our Lives",
+        "anio": 1947,
+        "calificacion": 8,
+        "duracion": 170.0,
+        "metascore": 93.0,
+        "url": "https://www.imdb.com/title/tt0036868/"
+    },
+    {
+        "id": 3846,
+        "titulo": "Before Sunset",
+        "anio": 2004,
+        "calificacion": 8,
+        "duracion": 80.0,
+        "metascore": 91.0,
+        "url": "https://www.imdb.com/title/tt0381681/"
+    },
+    {
+        "id": 3842,
+        "titulo": "The Wizard of Oz",
+        "anio": 1939,
+        "calificacion": 8,
+        "duracion": 102.0,
+        "metascore": 92.0,
+        "url": "https://www.imdb.com/title/tt0032138/"
+    },
+    {
+        "id": 3844,
+        "titulo": "Stand by Me",
+        "anio": 1986,
+        "calificacion": 8,
+        "duracion": 89.0,
+        "metascore": 75.0,
+        "url": "https://www.imdb.com/title/tt0092005/"
+    },
+    {
+        "id": 3845,
+        "titulo": "La passion de Jeanne d&apos;Arc",
+        "anio": 1928,
+        "calificacion": 8,
+        "duracion": 114.0,
+        "metascore": 98.0,
+        "url": "https://www.imdb.com/title/tt0019254/"
+    },
+    {
+        "id": 3847,
+        "titulo": "The Incredibles",
+        "anio": 2004,
+        "calificacion": 8,
+        "duracion": 115.0,
+        "metascore": 90.0,
+        "url": "https://www.imdb.com/title/tt0317705/"
+    },
+    {
+        "id": 3849,
+        "titulo": "Rush",
+        "anio": 2013,
+        "calificacion": 8,
+        "duracion": 123.0,
+        "metascore": 74.0,
+        "url": "https://www.imdb.com/title/tt1979320/"
+    },
+    {
+        "id": 3848,
+        "titulo": "Hachi: A Dog&apos;s Tale",
+        "anio": 2010,
+        "calificacion": 8,
+        "duracion": 93.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt1028532/"
+    },
+    {
+        "id": 3850,
+        "titulo": "Network",
+        "anio": 1976,
+        "calificacion": 8,
+        "duracion": 121.0,
+        "metascore": 83.0,
+        "url": "https://www.imdb.com/title/tt0074958/"
+    },
+    {
+        "id": 3851,
+        "titulo": "The Iron Giant",
+        "anio": 1999,
+        "calificacion": 8,
+        "duracion": 86.0,
+        "metascore": 85.0,
+        "url": "https://www.imdb.com/title/tt0129167/"
+    },
+    {
+        "id": 3852,
+        "titulo": "Ah-ga-ssi",
+        "anio": 2017,
+        "calificacion": 8,
+        "duracion": 145.0,
+        "metascore": 85.0,
+        "url": "https://www.imdb.com/title/tt4016934/"
+    },
+    {
+        "id": 3854,
+        "titulo": "Babam ve Oglum",
+        "anio": 2005,
+        "calificacion": 8,
+        "duracion": 112.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt0476735/"
+    },
+    {
+        "id": 3853,
+        "titulo": "To Be or Not to Be",
+        "anio": 1942,
+        "calificacion": 8,
+        "duracion": 99.0,
+        "metascore": 86.0,
+        "url": "https://www.imdb.com/title/tt0035446/"
+    },
+    {
+        "id": 3855,
+        "titulo": "The Help",
+        "anio": 2011,
+        "calificacion": 8,
+        "duracion": 146.0,
+        "metascore": 62.0,
+        "url": "https://www.imdb.com/title/tt1454029/"
+    },
+    {
+        "id": 3857,
+        "titulo": "The Grapes of Wrath",
+        "anio": 1940,
+        "calificacion": 8,
+        "duracion": 129.0,
+        "metascore": 96.0,
+        "url": "https://www.imdb.com/title/tt0032551/"
+    },
+    {
+        "id": 3858,
+        "titulo": "Gangs of Wasseypur",
+        "anio": 2012,
+        "calificacion": 8,
+        "duracion": 321.0,
+        "metascore": 89.0,
+        "url": "https://www.imdb.com/title/tt1954470/"
+    },
+    {
+        "id": 3856,
+        "titulo": "Koe no katachi",
+        "anio": 2016,
+        "calificacion": 8,
+        "duracion": 130.0,
+        "metascore": 78.0,
+        "url": "https://www.imdb.com/title/tt5323662/"
+    },
+    {
+        "id": 3859,
+        "titulo": "La battaglia di Algeri",
+        "anio": 1967,
+        "calificacion": 8,
+        "duracion": 121.0,
+        "metascore": 96.0,
+        "url": "https://www.imdb.com/title/tt0058946/"
+    },
+    {
+        "id": 3860,
+        "titulo": "Into the Wild",
+        "anio": 2007,
+        "calificacion": 8,
+        "duracion": 148.0,
+        "metascore": 73.0,
+        "url": "https://www.imdb.com/title/tt0758758/"
+    },
+    {
+        "id": 3861,
+        "titulo": "Groundhog Day",
+        "anio": 1993,
+        "calificacion": 8,
+        "duracion": 101.0,
+        "metascore": 72.0,
+        "url": "https://www.imdb.com/title/tt0107048/"
+    },
+    {
+        "id": 3862,
+        "titulo": "Drishyam",
+        "anio": 2015,
+        "calificacion": 8,
+        "duracion": 163.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt4430212/"
+    },
+    {
+        "id": 3863,
+        "titulo": "Höstsonaten",
+        "anio": 1978,
+        "calificacion": 8,
+        "duracion": 99.0,
+        "metascore": null,
+        "url": "https://www.imdb.com/title/tt0077711/"
+    }
+]

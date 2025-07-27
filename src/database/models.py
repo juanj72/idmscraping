@@ -47,6 +47,7 @@ class Pelicula(Base):  # type: ignore
             "duracion": self.duracion,
             "metascore": self.metascore,
             "url": self.url,
+            "actores": [actor.to_dict() for actor in self.actores],
         }
 
     actores = relationship(
