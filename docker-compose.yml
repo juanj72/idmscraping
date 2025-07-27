@@ -1,11 +1,32 @@
+version: '3.8'
+
 services:
+  vpn:
+    image: dperson/openvpn-client
+    container_name: vpnbook
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - OPENVPN_OPTS=--config /vpn/vpn.conf
+    volumes:
+      - ./vpnbook-us16-tcp80.ovpn:/vpn/vpn.conf:ro
+      - ./vpnbook-auth.txt:/vpn/auth.txt:ro
+    healthcheck:
+      test: ["CMD", "curl", "-s", "https://ipinfo.io/country"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
   scraper:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: scraper-tor
-    env_file:
-      - .env
+    container_name: imdb-scraper
+    depends_on:
+      vpn:
+        condition: service_healthy
+    network_mode: "service:vpn"
     volumes:
       - .:/app
-    command: poetry run python main.py  # este ya se sobrescribe en CMD, así que puedes quitarlo
+    command: poetry run python main.py
