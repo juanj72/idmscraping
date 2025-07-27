@@ -9,8 +9,8 @@ Un scraper robusto y escalable para extraer información de películas de IMDb c
 
 ## Requisitos:
 
-    python 3.12.8
-    poetry 1.7.1
+   - python 3.12.8
+   - poetry 1.7.1
 
 ## 🌟 **Características**
 
@@ -35,7 +35,13 @@ Para cada película se obtiene:
 
 ### **Instalación local**
 
-**si quieres ejecutar el proyecto en local, la recomendacion es usar una vpn como **riseupvpn\*\*
+- **Si deseas ejecutar el proyecto localmente, se recomienda usar una VPN como RiseupVPN para evitar los bloqueos comunes de AWS contra bots**
+- **instancia la base de datos pero previamente creala con nombre imdb y completa tus datos correspondientes**
+
+  ```bash
+  mysql -u [USUARIO] -p -h [HOST_BASE_DE_DATOS] -P [PUERTO] imdb < src/database/imdb.sql
+
+  ```
 
 ```bash
 # 1. Crear entorno virtual
@@ -133,15 +139,12 @@ idmscraping/
 
 ## 📊 **Uso**
 
-### \*\* Importacion base de datos
-
--Tener en cuenta el cargue de la base de datos de acuerdo al .sql, crear una base de datos llamada **imdb** y ejecuta lo siguiente dentro del proyecto
-    mysql -u [USUARIO] -p -h [HOST_BASE_DE_DATOS] -P [PUERTO] imdb < src/database/imdb.sql
-
 ### **Docker**
 
--Ejecutar docker compose
-docker-compose up -d
+- **Ejecutar docker compose**
+  ```bash
+  docker-compose up -d
+  ```
 
 ### **Scraping básico**
 
