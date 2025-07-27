@@ -29,9 +29,6 @@ class BfspRequestScraper:
             f"BfspRequestScraper initialized with {max_workers} workers and {delay} seconds delay."
         )
 
-    def _convert_to_dict(self, movies: List[Movie]) -> List[dict]:
-        return [asdict(movie) for movie in movies]
-
     def get_movies(self, base_url: str) -> List[dict]:
         movies = self.scraper.get_data(base_url).get("itemListElement", [])
 
@@ -73,7 +70,13 @@ class BfspRequestScraper:
                 except Exception as e:
                     logger.error(f"✗ Error en {url}: {e}")
 
-        return self.crud.get_all_movies_with_actors()
+        movies_with_actors = self.crud.get_all_movies_with_actors()
+        for movie in movies_with_actors:
+            if isinstance(movie, dict) and "actores" in movie and isinstance(movie["actores"], list):
+                movie["actores"] = ", ".join(
+                    actor.get("nombre", "") for actor in movie["actores"] if isinstance(actor, dict) and "nombre" in actor
+                )
+        return movies_with_actors
 
     def _save_movie(self, movie: Movie) -> dict:
         try:
