@@ -26,7 +26,6 @@ class Config:
                 ),
             },
         }
-        
 
     def _get_env_var(self, name, expected_type, default=None):
         value = os.getenv(name)

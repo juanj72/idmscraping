@@ -15,8 +15,11 @@ class DownloaderHelper:
         }
         self.max_retries = 3
         self.config = config
-        self.ip_rotation = config.config.get("proxy", {}).get("ip_rotation", True)
-        logger.info(f"DownloaderHelper initialized with IP rotation: {self.ip_rotation}")
+        self.ip_rotation = config.config.get("proxy", {}).get("ip_rotation")
+        
+        logger.info(
+            f"DownloaderHelper initialized with IP rotation: {self.ip_rotation}"
+        )
 
     def get_html(self, url: str) -> str:
 
@@ -25,13 +28,19 @@ class DownloaderHelper:
             session.headers.update(self.headers)
             if not self.ip_rotation:
                 break
-            proxy = get_random_proxy()
+          
+            proxy_rotation = get_random_proxy()
+            proxy = {
+                "http": proxy_rotation,
+                "https": proxy_rotation,
+            }
+
             logger.info(f"Attempt {attempt} with proxy: {proxy}")
             try:
                 response = session.get(
                     url,
                     allow_redirects=True,
-                    proxies={"http": f"{proxy}", "https": f"{proxy}"},
+                    proxies=proxy,
                     timeout=10,
                 )
                 response.raise_for_status()
@@ -43,6 +52,7 @@ class DownloaderHelper:
         try:
             session = requests.Session()
             session.headers.update(self.headers)
+            logger.info(f"intentando con ip: {get_ip_request()} ")
             response = session.get(
                 url,
                 allow_redirects=True,

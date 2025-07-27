@@ -3,13 +3,19 @@ version: '3.8'
 services:
   vpn:
     image: dperson/openvpn-client
-    container_name: risevpn
+    container_name: vpnbook
     cap_add:
       - NET_ADMIN
-    volumes:
-      - ./risevpn.ovpn:/vpn/vpn.conf:ro
     environment:
       - OPENVPN_OPTS=--config /vpn/vpn.conf
+    volumes:
+      - ./vpnbook-us16-tcp80.ovpn:/vpn/vpn.conf:ro
+      - ./vpnbook-auth.txt:/vpn/auth.txt:ro
+    healthcheck:
+      test: ["CMD", "curl", "-s", "https://ipinfo.io/country"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
     restart: unless-stopped
 
   scraper:
@@ -18,10 +24,9 @@ services:
       dockerfile: Dockerfile
     container_name: imdb-scraper
     depends_on:
-      - vpn
-    environment:
-      - IP_ROTATION=False
+      vpn:
+        condition: service_healthy
+    network_mode: "service:vpn"
     volumes:
       - .:/app
     command: poetry run python main.py
-    network_mode: "service:vpn"  # 🔥 Todo el tráfico va por la VPN

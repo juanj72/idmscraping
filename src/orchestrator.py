@@ -72,9 +72,15 @@ class BfspRequestScraper:
 
         movies_with_actors = self.crud.get_all_movies_with_actors()
         for movie in movies_with_actors:
-            if isinstance(movie, dict) and "actores" in movie and isinstance(movie["actores"], list):
+            if (
+                isinstance(movie, dict)
+                and "actores" in movie
+                and isinstance(movie["actores"], list)
+            ):
                 movie["actores"] = ", ".join(
-                    actor.get("nombre", "") for actor in movie["actores"] if isinstance(actor, dict) and "nombre" in actor
+                    actor.get("nombre", "")
+                    for actor in movie["actores"]
+                    if isinstance(actor, dict) and "nombre" in actor
                 )
         return movies_with_actors
 
@@ -106,10 +112,10 @@ class BfspRequestScraper:
         try:
             for a in actors:
                 actor_dict = self.crud.getActor(a.name)
-                if isinstance(actor_dict, str):  # si hubo error
-                    return actor_dict  # retorno error para no continuar
+                if isinstance(actor_dict, str):
+                    return actor_dict
 
-                if actor_dict is None:  # actor no existe, se crea
+                if actor_dict is None:
                     actor_dict = self.crud.addActor(a)
                     if isinstance(actor_dict, str):
                         return actor_dict
