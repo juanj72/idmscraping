@@ -25,7 +25,9 @@ class BfspRequestScraper:
         self.delay = delay  # Delay between requests
         self.lock = Lock()  # to thread-safe operations
         self.crud = crud
-        logger.info(f"BfspRequestScraper initialized with {max_workers} workers and {delay} seconds delay.")
+        logger.info(
+            f"BfspRequestScraper initialized with {max_workers} workers and {delay} seconds delay."
+        )
 
     def _convert_to_dict(self, movies: List[Movie]) -> List[dict]:
         return [asdict(movie) for movie in movies]
@@ -71,13 +73,15 @@ class BfspRequestScraper:
                 except Exception as e:
                     logger.error(f"✗ Error en {url}: {e}")
 
-        return movie_objects
+        return self.crud.get_all_movies_with_actors()
 
     def _save_movie(self, movie: Movie) -> dict:
         try:
             movie_dict = self.crud.addMovie(movie)
             if isinstance(movie_dict, str):
-                logger.error(f"Error al guardar la película {movie.title}: {movie_dict}")
+                logger.error(
+                    f"Error al guardar la película {movie.title}: {movie_dict}"
+                )
                 return {"error": movie_dict}
 
             actors = self._save_actors(movie.actors)
@@ -163,10 +167,14 @@ class BfspRequestScraper:
 
             except Exception as e:
                 if attempt < max_retries - 1:
-                    logger.warning(f"Reintento {attempt + 1}/{max_retries} para {url_detail}")
+                    logger.warning(
+                        f"Reintento {attempt + 1}/{max_retries} para {url_detail}"
+                    )
                     time.sleep(2**attempt)  # Backoff exponencial
                 else:
-                    logger.error(f"Falló después de {max_retries} intentos: {url_detail}")
+                    logger.error(
+                        f"Falló después de {max_retries} intentos: {url_detail}"
+                    )
                     raise e
 
     # TODO: move to utils

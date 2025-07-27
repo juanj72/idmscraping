@@ -22,7 +22,7 @@ class Config:
             },
             "proxy": {
                 "ip_rotation": self.ip_rotation.get(
-                    self._get_env_var("IP_ROTATION", str, default=1)
+                    int(self._get_env_var("IP_ROTATION", str, default=1))
                 ),
             },
         }

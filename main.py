@@ -24,6 +24,7 @@ if __name__ == "__main__":
 
     orchestrator_scraper = OrchestratorBfspRequestScraper(scraper, crud, 12, 0)
     movies = orchestrator_scraper.get_movies(url)
+    print(movies)
     # with open("movies.json", "w") as f:
     #     f.write(json.dumps(movies, indent=4, ensure_ascii=False))
     end_time = time.time()
