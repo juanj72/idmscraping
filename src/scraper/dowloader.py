@@ -1,4 +1,6 @@
 import requests
+from src.scraper.proxys.get_proxys import get_random_proxy
+from src.scraper.proxys.get_ip import get_ip_request
 
 
 class DownloaderHelper:
@@ -15,8 +17,11 @@ class DownloaderHelper:
         session.headers.update(self.headers)
         try:
             response = session.get(
-                url, allow_redirects=True, timeout=30
+                url,
+                allow_redirects=True,
+                timeout=10,
             )
+            print(f"peticion hecho desde {get_ip_request()}")
             response.raise_for_status()
             return response.text
         except requests.RequestException as e:

@@ -98,7 +98,7 @@ class BfspRequestScraper:
             for a in actors:
                 actor_dict = self.crud.getActor(a.name)
                 if isinstance(actor_dict, str):  # si hubo error
-                    return actor_dict  # corto circuito
+                    return actor_dict  # retorno error para no continuar
 
                 if actor_dict is None:  # actor no existe, se crea
                     actor_dict = self.crud.addActor(a)
@@ -115,7 +115,7 @@ class BfspRequestScraper:
     def _exists_movie(self, url: str) -> bool:
         movie = self.crud.getMovieByUrl(url)
 
-        # Si movie es string, es un error
+        # Si movie es string, es un error # TODO: mejorar manejo de errores
         if isinstance(movie, str):
             print(f"Pelicula no existe, se procede a guardar: {movie}")
             return False
@@ -132,7 +132,7 @@ class BfspRequestScraper:
 
         for attempt in range(max_retries):
             try:
-                # Rate limiting
+                # Rate limiting, se puede ajustar según el índice # TODO: mejorar lógica de rate limiting
                 if self.delay > 0:
                     time.sleep(self.delay * (index % self.max_workers))
 

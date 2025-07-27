@@ -4,11 +4,13 @@ from src.scraper.dowloader import DownloaderHelper
 from src.orchestrator import BfspRequestScraper as OrchestratorBfspRequestScraper
 import time
 from src.database.crud import Crud
+from src.scraper.proxys.get_proxys import fetch_proxies
 
 
 if __name__ == "__main__":
 
     start_time = time.time()
+    fetch_proxies("https")
     crud = Crud()
     downloader = DownloaderHelper()
     url = "https://www.imdb.com/chart/top/?groups=top_250&count=250"
